@@ -1,0 +1,97 @@
+
+
+.swipecont-container{
+
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+   
+    height: 700px;
+    z-index:4;
+   
+    
+}
+.swipecont{
+ display: flex;
+ position: absolute;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ overflow-y: hidden;
+ 
+
+} 
+.estiloCont1{  
+      width: 80%;
+  height: 500px;
+background: rgb(47,32,61);
+background: linear-gradient(60deg, rgba(47,32,61,1) 0%, rgba(99,47,124,1) 35%, rgba(152,98,189,1) 100%);
+   margin:0 10%;
+  border-radius: 3px;
+  text-align: center;
+   box-shadow: 0 0 15px rgba(110, 226, 253, 0.47), inset 0 0 20px rgba(110, 226, 253, 0.267);
+   opacity: .5;
+   
+}
+   
+.servicios h3{
+  color: white;
+  font-size: 22px;
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+text-shadow: 0 0 15px rgba(110, 226, 253, 0.87);
+  
+}
+.servicios p {
+  color: white;
+  font-size: 15px;
+  width: 80%;
+  height: fit-content;
+  margin: 0 auto;
+  text-shadow: 0 0 15px rgba(110, 226, 253, 0.87);
+}
+ .left{
+   transform: scale(1.05);
+opacity: .7;
+   left: -100%;
+   z-index: 4;
+
+}
+.zero{
+  transform: scale(1);
+opacity: 1;
+   left: 0%;
+   z-index: 5;
+
+}
+.right{
+    transform: scale(1.05);
+opacity: .7;
+   left: 100%;
+   z-index: 4;
+ 
+}
+.toleft{
+  
+  transform: scale(1.05);
+  opacity: .7;
+  left: -100%;
+  transition: all 350ms ease;
+}
+.toright{
+  transform: scale(1.05);
+  opacity: .7;
+  left: 100%;
+  transition: all 350ms ease;
+}
+.tozero{
+  transform: scale(1);
+  opacity: 1;
+  left: 0%;
+  transition: all 350ms ease;
+
+  }
