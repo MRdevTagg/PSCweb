@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+:root{
+  --navHeight :70px;
+  --primaryColor:blue;
+  --secondaryColor:green;
+}
+
+*{margin:0 0;
+padding: 0 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+html{box-sizing: inherit;
+  scroll-behavior: smooth;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  background: white;
+
+}
+
+header{
+position:fixed;
+display: flex;
+align-items: center;
+justify-content: space-around;
+  height: var(--navHeight);
+  width: 100%;
+  color:white;
+  top: 0;
+  z-index: 7;
+}
+.logo{
+  
+  width: 310px;
+  height: 110px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/img/PSC-logoiso.svg');
+  
+margin-left: -100px;
+left: 0;
+  z-index: 2;
+  transform: scale(.5);
+ 
+}
+
+nav{
+ 
+position: absolute;
+top: var(--navHeight);
+overflow: hidden;
+right:-50%;
+width:50%;
+height: fit-content;
+padding:10px 0px;
+
+box-shadow:inset 0 0 40px rgba(255, 255, 255, 0.14), 0 0 15px rgba(0,0,0,.8);
+  border-bottom-left-radius: 10px;
+
+background-color:#102429;
+transition: right .5s;
+
+}
+
+header p{
+  position: absolute;
+  text-shadow: 0 0 7px white;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+}
+header .headerBackground{
+  background-color: #191F27;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  width: 100%;
+  height: var(--navHeight);
+  box-shadow: 0 0 15px rgba(0,0, 0, 0.7);
+  top: 0;
+  z-index: 1;
+}
+
+
+.navexpand{
+    position:absolute;
+   
+margin-right: -50px;
+ 
+  height:40px;
+width: 40px;
+z-index:2;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ flex-wrap: wrap;
+  height: fit-content;
+  margin:0 0;
+  padding: 0 0;
+  margin-bottom: 30px;
+  
+}
+nav ul li{
+    
+
+  display: inline-block;
+ 
+  box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(251, 251, 255, 0.07);
+  text-shadow: 0 0 0 transparent;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+  list-style-type: none;
+  color: white;
+  width: 100%;
+   border: none;
+transform: scale(1);
+  padding: 10px 0;
+  padding-top: 15px;
+  font-weight: 500;
+  transition: all .6s;
+  margin-top: 10px;
+  
+
+}
+
+main{overflow-x: hidden;
+display: flex;
+flex-direction: column;
+margin-top: var(--navHeight);
+}
+section{width: 100%; height:100vh;
+  overflow-x: hidden;
+
+transition: background 1s;
+}
+h1{font-size: 22px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+p{font-size: 14px;}
+a{font-size: 15px;}
+footer{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+footer .wpp{
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  box-shadow: -2px 2px 8px rgba(0,0,0,.4);
+  background-color:#438B42;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+footer .wpp div{
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/img/wpplogo.svg');
+}
+
+
+.activeLink{
+  transform:scale(1);
+  text-shadow: 0 0 15px #b0f1c3;
+  color:#ffffff;
+  box-shadow: 0  0 14px rgba(170, 255, 208, 0.71), inset 0 0 14px rgba(144, 250, 179, 0.5);
+  border: none;
+  animation-name: linkEffect;
+   animation-duration: .5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.activeSection{
+  
+}
+
+@keyframes linkEffect{
+  0%{  box-shadow: 0  0 14px rgba(170, 255, 196, 0.71), inset 0 0 14px rgba(144, 250, 158, 0.5);
+}
+  50%{  box-shadow: 0  0 20px rgba(170, 255, 181, 0.71), inset 0 0 20px rgba(144, 250, 149, 0.5);
+}
+  100%{  box-shadow: 0  0 14px rgba(173, 255, 170, 0.71), inset 0 0 14px rgba(144, 250, 144, 0.5);
+}
+}
