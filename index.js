@@ -118,10 +118,10 @@ EV(sl.container,'touchmove',(e)=>{
     if (Math.abs(move_x) > min_horizontal_move && Math.abs(move_y) < max_vertical_move && elapsed_time < within_ms) {
             if (move_x < 0 && sl.canSwipe) {
                  sl.moveRight = false;
-                 sl.Update();
+                 sl.Slide();
             } if(move_x > 0 && sl.canSwipe) {
                  sl.moveRight = true ;
-                 sl.Update();
+                 sl.Slide();
             }
         }
 });
