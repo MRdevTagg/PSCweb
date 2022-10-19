@@ -4,6 +4,7 @@
   --navHeight :70px;
   --primaryColor:blue;
   --secondaryColor:green;
+  --iconColor:#068107;
 }
 
 *{margin:0 0;
@@ -63,7 +64,7 @@ box-shadow:inset 0 0 40px rgba(255, 255, 255, 0.14), 0 0 15px rgba(0,0,0,.8);
 
 background-color:#102429;
 transition: right .5s;
-transition-delay: .3s;
+
 }
 
 header p{
@@ -123,7 +124,7 @@ nav ul li{
   list-style: none;
   list-style-type: none;
   color: white;
-  width: 100%;
+  width: 95%;
    border: none;
 transform: scale(1);
   padding: 5px 0;
@@ -191,9 +192,7 @@ nav ul li img{
   animation-fill-mode: forwards;
 }
 
-.activeSection{
-  
-}
+
 
 @keyframes linkEffect{
   0%{  box-shadow: 0  0 5px rgba(170, 255, 196, 0.71), inset 0 0 5px rgba(144, 250, 158, 0.5);

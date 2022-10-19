@@ -2,7 +2,6 @@
 background-size: 200%;
 height: fit-content;
 background-repeat: no-repeat;
-  background-image: url('/img/residuos.png');
  background-position-x: right;
  background-position-y: 0;
 }
@@ -35,11 +34,7 @@ padding: 0 0;
   margin-bottom: 30px;
 }
 
-#servicios{}
 
-#referencias{}
-
-#contacto{}
 .sectionBackground{
 
 object-fit: cover;
