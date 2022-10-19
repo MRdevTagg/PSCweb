@@ -1,0 +1,37 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="120px" viewBox="0 0 550 120">
+<defs>
+<g id="ICONOS_2_Layer0_0_FILL">
+<path fill="#C1F6C4" stroke="none" d="
+M 71.4 353.6
+L 71.4 353.55
+Q 70.9 352.45 70.1 351.45 69.95 351.25 69.7 351 69.5 350.8 69.3 350.55 68.7 349.95 68 349.45 66.05 348.1 63.6 348.05 63.55 348.05 63.5 348.05
+L 63.45 348.05
+Q 61.8 348.05 60.35 348.65 59.6 348.95 58.9 349.45 58.2 349.9 57.6 350.5 57.35 350.75 57.1 351 55.95 352.3 55.3 353.85 54.5 355.8 54.5 358.1 54.5 359.05 54.65 359.95 55.2 361.9 56.45 364.4 56.8 365 57.15 365.65 57.3 365.85 57.35 366.05 59.6 370.1 63.4 375.3 67.15 370.1 69.35 366.1 69.55 365.75 69.8 365.4 70 364.9 70.25 364.5 71.65 361.75 72.25 359.65 72.3 358.9 72.3 358.1 72.3 355.6 71.4 353.6
+M 63.45 352.55
+Q 65.55 352.55 67.05 354.05 68.6 355.55 68.6 357.65 68.6 359.8 67.05 361.3 65.55 362.8 63.45 362.8 61.35 362.8 59.8 361.3 58.3 359.8 58.3 357.65 58.3 355.55 59.8 354.05 61.35 352.55 63.45 352.55 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#3EEB3D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 145.6 10
+L 145.6 110"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 2.8993682861328125, 0, 0, 2.8993682861328125, 73.15,57.7) ">
+<g transform="matrix( 1, 0, 0, 1, -63.4,-361.65) ">
+<use xlink:href="#ICONOS_2_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 175.25,30) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="284.35" height="64" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="47.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="50" fill="#C1F6C4" xml:space="preserve">CONTACTO</tspan></text>
+</g>
+</svg>

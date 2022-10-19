@@ -1,0 +1,40 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="120px" viewBox="0 0 550 120">
+<defs>
+<g id="S_mbolo_5_0_Layer0_0_FILL">
+<path fill="#C1F6C4" stroke="none" d="
+M 12 -12.05
+Q 7.0623046875 -16.9947265625 0 -17 -7.009375 -16.9947265625 -12 -12.05 -16.9962890625 -7.0607421875 -17 0 -16.9974609375 7.0095703125 -12 12 -7.0095703125 16.9974609375 0 17 7.0626953125 16.9974609375 12 12 16.9974609375 7.0095703125 17 0 16.9962890625 -7.0607421875 12 -12.05
+M 0 -15
+Q 6.2376953125 -15.0052734375 10.6 -10.65 15.0037109375 -6.2392578125 15 0 15.0025390625 6.1904296875 10.6 10.6 6.2373046875 15.00234375 0 15 -6.1904296875 15.0025390625 -10.6 10.6 -15.0025390625 6.1904296875 -15 0 -15.0037109375 -6.2392578125 -10.6 -10.65 -6.1908203125 -15.0052734375 0 -15
+M -9.1 8.5
+Q -8.9 8.7 -8.65 8.9 -5.05 12.5 0 12.5 5.1 12.5 8.7 8.9 8.95 8.7 9.15 8.5 9.2 8.15 9.2 7.8 9.2 5.25 6.5 3.5 3.8 1.7 0 1.7 -3.8 1.7 -6.5 3.5 -9.15 5.25 -9.15 7.8 -9.15 8.15 -9.1 8.5
+M 4.9 -4.4
+Q 4.9 -6.4 3.5 -7.8 2.05 -9.25 0.05 -9.25 -2 -9.25 -3.45 -7.8 -4.85 -6.4 -4.85 -4.4 -4.85 -2.3 -3.45 -0.9 -2 0.5 0.05 0.5 2.05 0.5 3.5 -0.9 4.9 -2.3 4.9 -4.4 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#3EEB3D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 145.6 10
+L 145.6 110"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 2.8993682861328125, 0, 0, 2.8993682861328125, 73.15,57.7) ">
+<g transform="matrix( 0.764862060546875, 0, 0, 0.764862060546875, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#S_mbolo_5_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 175.25,30) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="352.55" height="64" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="47.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="50" fill="#C1F6C4" xml:space="preserve">REFERENCIAS</tspan></text>
+</g>
+</svg>

@@ -66,11 +66,14 @@ class NavBar {
 const navHandler = function (i,li,sec){
   headheight = $('header').clientHeight
         if ( pastLink !== null ) {
-            removeClass(pastLink,"activeLink");}
+            removeClass(pastLink,"activeLink");
+            pastLink.querySelector("img").style.width = "85%";
+          }
         if ( pastSec !== null ) {
             removeClass(pastSec,"activeSection")}
             
       addClass(li[i],"activeLink")
+      li[i].querySelector("img").style.width = "100%";
       addClass(sec[i],"activeSection")
       window.scrollBy(0, rect(sec[i]).top - headheight);
 

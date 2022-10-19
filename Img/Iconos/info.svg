@@ -1,0 +1,41 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="120px" viewBox="0 0 550 120">
+<defs>
+<g id="ICONOS_4_Layer0_0_FILL">
+<path fill="#C1F6C4" stroke="none" d="
+M 64.65 409.2
+Q 64.7 408.95 64.55 408.8 64.5 408.5 64.1 408.5 64.05 408.5 63.6 408.6 63.2 408.65 62.55 408.8 61.9 408.9 61.3 409.1 60.65 409.3 60.25 409.55 59.85 409.85 59.85 410.15 59.85 410.55 60 410.65 60.25 410.8 60.45 410.9 60.7 411.05 60.8 411.3 60.85 411.55 60.9 412.05 60.9 412.5 60.9 413.05 60.9 413.7 60.85 414.15 60.85 414.65 60.7 414.9 60.6 415.1 60.4 415.3 60.2 415.4 60 415.55 59.9 415.7 59.85 416.05 59.85 416.15 59.9 416.35 60 416.55 60.25 416.65 60.55 416.85 61.15 416.9 61.75 417.05 62.8 417.05 63.1 417.05 63.55 417.05 64 417 64.5 416.9 64.95 416.8 65.25 416.55 65.6 416.35 65.65 415.9 65.65 415.6 65.45 415.55 65.3 415.4 65.15 415.3 64.95 415.15 64.8 414.85 64.65 414.5 64.65 413.8
+L 64.65 409.2
+M 61.4 408
+Q 61.8 408 62.3 407.9 62.8 407.85 63.3 407.65 63.85 407.5 64.2 407.2 64.55 406.9 64.55 406.4 64.55 406 64.3 405.75 64.05 405.5 63.7 405.45 63.3 405.35 63 405.35 62.65 405.35 62.15 405.45 61.65 405.5 61.15 405.7 60.65 405.85 60.35 406.2 59.95 406.45 59.95 406.9 59.95 407.25 60.2 407.5 60.4 407.75 60.7 407.9 61.05 408 61.4 408 Z"/>
+</g>
+
+<path id="Layer0_0_1_STROKES" stroke="#3EEB3D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 145.6 10
+L 145.6 110"/>
+
+<path id="ICONOS_4_Layer0_0_1_STROKES" stroke="#C1F6C4" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 75.85 411.1
+Q 75.85 416.5 72 420.25 68.25 424.1 62.85 424.1 57.5 424.1 53.65 420.25 49.85 416.5 49.85 411.1 49.85 405.75 53.65 401.9 57.5 398.1 62.85 398.1 68.25 398.1 72 401.9 75.85 405.75 75.85 411.1 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 2.8993682861328125, 0, 0, 2.8993682861328125, 73.15,57.7) ">
+<g transform="matrix( 1, 0, 0, 1, -62.85,-411.1) ">
+<use xlink:href="#ICONOS_4_Layer0_0_FILL"/>
+
+<use xlink:href="#ICONOS_4_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 175.25,30) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="366.65" height="64" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="47.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="50" fill="#C1F6C4" xml:space="preserve">INFORMACION</tspan></text>
+</g>
+</svg>

@@ -54,7 +54,7 @@ position: absolute;
 top: var(--navHeight);
 overflow: hidden;
 right:-50%;
-width:50%;
+width: 50%;
 height: fit-content;
 padding:10px 0px;
 
@@ -63,7 +63,7 @@ box-shadow:inset 0 0 40px rgba(255, 255, 255, 0.14), 0 0 15px rgba(0,0,0,.8);
 
 background-color:#102429;
 transition: right .5s;
-
+transition-delay: .3s;
 }
 
 header p{
@@ -113,10 +113,11 @@ nav ul{
 nav ul li{
     
 
-  display: inline-block;
- 
-  box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(251, 251, 255, 0.07);
-  text-shadow: 0 0 0 transparent;
+  display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+  box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(0, 0, 2, 0.07);
+  
   font-size: 18px;
   text-align: center;
   list-style: none;
@@ -125,8 +126,8 @@ nav ul li{
   width: 100%;
    border: none;
 transform: scale(1);
-  padding: 10px 0;
-  padding-top: 15px;
+  padding: 5px 0;
+  
   font-weight: 500;
   transition: all .6s;
   margin-top: 10px;
@@ -142,7 +143,7 @@ margin-top: var(--navHeight);
 section{width: 100%; height:100vh;
   overflow-x: hidden;
 
-transition: background 1s;
+
 }
 h1{font-size: 22px;}
 h2{font-size: 20px;}
@@ -171,7 +172,10 @@ footer .wpp div{
   background-size: contain;
   background-image: url('/img/wpplogo.svg');
 }
-
+nav ul li img{
+  width:85%;
+  transition:all .2s;
+}
 
 .activeLink{
   transform:scale(1);
@@ -192,10 +196,10 @@ footer .wpp div{
 }
 
 @keyframes linkEffect{
-  0%{  box-shadow: 0  0 14px rgba(170, 255, 196, 0.71), inset 0 0 14px rgba(144, 250, 158, 0.5);
+  0%{  box-shadow: 0  0 5px rgba(170, 255, 196, 0.71), inset 0 0 5px rgba(144, 250, 158, 0.5);
 }
-  50%{  box-shadow: 0  0 20px rgba(170, 255, 181, 0.71), inset 0 0 20px rgba(144, 250, 149, 0.5);
+  50%{  box-shadow: 0  0 5px rgba(170, 255, 181, 0.71), inset 0 0 14px rgba(144, 250, 149, 0.5);
 }
-  100%{  box-shadow: 0  0 14px rgba(173, 255, 170, 0.71), inset 0 0 14px rgba(144, 250, 144, 0.5);
+  100%{  box-shadow: 0  0 5px rgba(173, 255, 170, 0.71), inset 0 0 5px rgba(144, 250, 144, 0.5);
 }
 }
