@@ -1,6 +1,6 @@
 section{position: relative;
 background-size: 200%;
-height: fit-content;
+
 background-repeat: no-repeat;
  background-position-x: right;
  background-position-y: 0;
@@ -10,7 +10,7 @@ background-repeat: no-repeat;
  outline: 0;
 }
 #inicio{
-  height: 700px;
+  height: 699px;
  
   background-color: #191F27;
 
