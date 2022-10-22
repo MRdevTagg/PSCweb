@@ -205,5 +205,5 @@ nav ul li img{
 }
 }
 @media (min-width: 801px) {
-     .nav{width: 20%;}
+     nav{width: 10%;}
 }

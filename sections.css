@@ -10,10 +10,31 @@ section{position: relative;
   height: 700px;
  overflow-y: hidden;
   background-color: #191F27;
-
+  background: url("Img/Abkhazia-sea-mountains-1.jpg");
+  background-size: cover;
+background-attachment: fixed;
+}
+#inicio .contactanos{
+  width: 100%;
+  height:30px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #inicio a{
 
+  width: 100px;
+  height:30px;
+  padding:1rem ;
+  text-transform: uppercase;
+  text-align: center;
+  background: #014505;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  
 }
 #inicio h3{
   width: 100%;
@@ -25,7 +46,7 @@ section{position: relative;
   align-items: center;
   justify-content: center;
   height: fit-content;
-  background:url("Img/residuos.png");
+  /* background:url("Img/residuos.png"); */
 
 width: 100%;
 
@@ -50,8 +71,9 @@ width: 100%;
 #nosotros img{
   margin-bottom: 30px;
 }
-
-
+#servicios{
+  background: #c4ffc7;
+}
 .sectionBackground{
 
 
