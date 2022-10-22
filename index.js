@@ -102,15 +102,23 @@ EV(link,'touchstart',() => {
 Sliders.forEach((sl,indx)=>{
   
   sl.UpdateSliderWidth()
-EV(sl.container,'touchstart',(e)=>{
+EV(sl.container,start,(e)=>{
   sl.canSwipe = true
- start_xPos = e.touches[0].pageX;
- start_yPos = e.touches[0].pageY;
+  if(start === 'touchstart'){
+    start_xPos = e.changedTouches[0].pageX;
+    start_yPos = e.changedTouches[0].pageY;}
+    else{
+      start_xPos = e.pageX;
+      start_yPos = e.pageY;}
  start_time = new Date();
 });
-EV(sl.container,'touchmove',(e)=>{
+EV(sl.container,move,(e)=>{
+  if(move === 'touchmove'){
     end_xPos = e.changedTouches[0].pageX;
-    end_yPos = e.changedTouches[0].pageY;
+    end_yPos = e.changedTouches[0].pageY;}
+    else{
+      end_xPos = e.pageX;
+      end_yPos = e.pageY;}
     end_time = new Date();
     let move_x = end_xPos - start_xPos;
     let move_y = end_yPos - start_yPos;
@@ -127,8 +135,8 @@ EV(sl.container,'touchmove',(e)=>{
 });
 });
 
-EV($('.btnmenu'),'touchstart',showHideNav);
-EV($('main'),'touchstart',()=>{
+EV($('.btnmenu'),start,showHideNav);
+EV($('main'),start,()=>{
   if (navRight === 0) {
     showHideNav()
   }

@@ -11,14 +11,18 @@
 padding: 0 0;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+  box-sizing: content-box;
 }
-html{box-sizing: border-box;
+html{box-sizing: content-box;
   scroll-behavior: smooth;
 font-family: 'Roboto Condensed', sans-serif;
 }
 
 body{
-  background: white;
+  
+
+  background-color: #191F27;
+
 
 }
 
@@ -199,4 +203,7 @@ nav ul li img{
 }
   100%{  box-shadow: 0  0 5px rgba(173, 255, 170, 0.71), inset 0 0 5px rgba(144, 250, 144, 0.5);
 }
+}
+@media (min-width: 801px) {
+     .nav{width: 20%;}
 }
