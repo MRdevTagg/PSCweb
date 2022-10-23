@@ -204,6 +204,11 @@ nav ul li img{
   100%{  box-shadow: 0  0 5px rgba(173, 255, 170, 0.71), inset 0 0 5px rgba(144, 250, 144, 0.5);
 }
 }
-@media (min-width: 801px) {
+
+@media(min-width : 450px){
+  nav{width: 20%;}
+  nav .rrr{ font-size: 15px;}
+}@media (min-width: 801px) {
      nav{width: 10%;}
+     nav .rrr{ font-size: 15px;}
 }
