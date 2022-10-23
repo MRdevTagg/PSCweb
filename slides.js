@@ -7,6 +7,7 @@ class Slider{
     this.positionX = positionX;
     this.moveRight = moveRight;
     this.canSwipe = canSwipe;
+    
   }
   Update(){
     let sLength = this.slides.length;
