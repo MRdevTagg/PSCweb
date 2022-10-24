@@ -32,6 +32,7 @@ class Slider{
       this.slider.style.transition = 'none';
       this.slider.style.width = this.slides.length * 100 + '%';
       this.slider.style.transition = 'all .5s'
+      
     }
 
   Slide(){

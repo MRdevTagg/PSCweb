@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded',Init);
 var min_horizontal_move = 50;
 var max_vertical_move = 50;
 var within_ms = 300 ;
-
+let i = 0
 var start_xPos;
 var start_yPos;
 var start_time;
@@ -14,7 +14,8 @@ const slides1 = Array.from($$('.slide'));
 const slider1 = $('.slider');
 const Slider_A = new Slider(s1_container,slider1,slides1,0,false,false);
 const Sliders = [Slider_A];
-
+createSliderIndex('div','circle','.slider-index',slides1.length)
+const sliderindex = Array.from($$('.circle'))
 let pastSec = null;
 let pastLink = null;
 let navRight= -50;
@@ -99,8 +100,9 @@ EV(link,'touchstart',() => {
 })
 });
 
-Sliders.forEach((sl,indx)=>{
-  
+Sliders.forEach((sl)=>{
+  sliderindex[i].style.transform = `scale(.7)`;
+                 sliderindex[i].style.background = `#093c7e`;
   sl.UpdateSliderWidth()
 EV(sl.container,start,(e)=>{
   sl.canSwipe = true
@@ -127,9 +129,23 @@ EV(sl.container,move,(e)=>{
             if (move_x < 0 && sl.canSwipe) {
                  sl.moveRight = false;
                  sl.Slide();
-            } if(move_x > 0 && sl.canSwipe) {
+                 sliderindex[i].style.transform = `scale(1)`;
+                 sliderindex[i].style.background = `#cce0fa`;
+                 if(i < sl.slides.length -1){i++}
+                 sliderindex[i].style.transform = `scale(.7)`;
+                 sliderindex[i].style.background = `#093c7e`;
+
+                } if(move_x > 0 && sl.canSwipe) {
                  sl.moveRight = true ;
                  sl.Slide();
+                 
+                 sliderindex[i].style.transform = `scale(1)`;
+                 sliderindex[i].style.background = `#cce0fa`;
+                 if( i> 0 ){i--}
+                 
+                 sliderindex[i].style.transform = `scale(.7)`;
+                 sliderindex[i].style.background = `#093c7e`;
+
             }
         }
 });

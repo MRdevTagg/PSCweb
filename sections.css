@@ -76,11 +76,11 @@ background-attachment: fixed;
   align-items: center;
   justify-content: center;
   height: fit-content;
-background-color:#2f3b4a;
+background-color:#123655;
  padding-bottom: 80px;
  padding-top: 30px;
 width: 100%;
-clip-path: polygon(0 0, 100% 2%, 100% 100%, 0 98%);
+clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 98%);
 z-index: 5;
 
 
@@ -110,11 +110,12 @@ z-index: 5;
   width: 100%;
   
 }
-#nosotros .logoN{
+#nosotros .logo-container{
   background-color: #191F27;
+  
 }
 #nosotros .quienes-somos{
-  background-color: #191F27;
+  background-color: #191f279c;
   width: 80%;
   height: fit-content;
   margin-bottom: 30px;
@@ -122,7 +123,7 @@ z-index: 5;
   padding: 10px;
   padding-bottom: 60px;
   padding-top: 50px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.653) , inset 0 0 60px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) , inset 0 0 100px rgba(0, 0, 0, 0.1);
 }
 #servicios{
   background: #c4ffc7;
