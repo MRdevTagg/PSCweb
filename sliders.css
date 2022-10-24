@@ -1,7 +1,7 @@
 .slider-container{
   height:fit-content;
   z-index: 4;
- margin-top: 150px;
+
    /* background: rgba(4, 151, 255, 0.26);*/
 width: 100%;
 background: azure;
@@ -31,6 +31,7 @@ transform: scale(1);
   
 }
 .slide h3{
+  
   text-align: center;
   color:#000000;
   font-weight: 400;

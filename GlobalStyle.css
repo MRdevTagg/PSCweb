@@ -110,7 +110,7 @@ nav ul{
   margin-bottom: 30px;
   
 }
-.rrr{
+nav .rrr{
   color: #191F27;
   text-transform: uppercase;
   margin: 3px;
@@ -211,4 +211,7 @@ nav ul li img{
 }@media (min-width: 801px) {
      nav{width: 10%;}
      nav .rrr{ font-size: 15px;}
+}
+.slide img{
+  max-width: 70%;
 }
