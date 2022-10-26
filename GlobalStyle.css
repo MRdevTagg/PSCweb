@@ -2,9 +2,17 @@
 
 :root{
   --navHeight :70px;
-  --primaryColor:blue;
-  --secondaryColor:#003100;
-  --iconColor:#068107;
+  --v1:#83ED88;
+  --v2:#3EEB3D;
+  --v3:#06D705;
+  --v4:#068107;
+  --a1:#88a0c2;
+  --a2:#5a70bf;
+  --a3:#374d6b;
+  --a4:#191f27;
+
+
+
 }
 
 *{margin:0 0;
@@ -21,7 +29,7 @@ font-family: 'Roboto Condensed', sans-serif;
 body{
   
 
-  background-color: #191F27;
+  background-color: var(--a4);
 
 
 }
@@ -33,7 +41,7 @@ align-items: center;
 justify-content: space-between;
   height: var(--navHeight);
   width: 100%;
-  background-color: #191F27;
+  background-color: var(--a4);
   color:white;
   top: 0;
   margin: 0;
@@ -132,7 +140,7 @@ nav ul li{
    border: none;
 transform: scale(1);
   padding: 5px 0;
-  background-color: #191f27ea;;
+  background-color: #191f27ea;
   font-weight: 500;
   transition: all .6s;
   margin-top: 10px;
@@ -145,11 +153,7 @@ display: flex;
 flex-direction: column;
 margin-top: var(--navHeight);
 }
-section{width: 100%; height:100vh;
-  overflow-x: hidden;
 
-
-}
 h1{font-size: 22px;}
 h2{font-size: 20px;}
 h3{font-size: 18px;}
@@ -215,5 +219,5 @@ nav ul li img{
      nav .rrr{ font-size: 15px;}
 }
 .slide img{
-  max-width: 70%;
+  max-width: 50%;
 }

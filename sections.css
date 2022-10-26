@@ -12,7 +12,7 @@ overflow: hidden;
   background-color: #191F27;
   background: url("Img/Abkhazia-sea-mountains-1.jpg");
   background-size: cover;
-background-attachment: fixed;
+
 }
 #inicio .contactanos{
   width: 100%;
@@ -41,6 +41,7 @@ background-attachment: fixed;
   width:3px;
   height: 100px;
   background-color: #72d0ea;
+  animation:expand 1s ease 1s 1 normal;
 }
 .titulo h4{
   width: 70%;
@@ -80,7 +81,7 @@ background-color:#191F27;;
  padding-bottom: 80px;
  padding-top: 30px;
 width: 100%;
-clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 98%);
+clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0 98%);
 z-index: 5;
 
 
@@ -95,10 +96,11 @@ z-index: 5;
   text-shadow: #eaffea 0 0 5px;
 }
 #nosotros h3{
+  max-width: 500px;
   font-weight: 200;
   margin-top: 10px;
   padding: 10px 10%;
-  text-align: left;
+  text-align: center;
   color: #eaffea;
   font-size: 18px; padding: 10px;
   padding-bottom: 60px;
@@ -117,7 +119,7 @@ z-index: 5;
 }
 #nosotros .logoN{
   padding: 20px 0;
-  width: 300px;
+  max-width: 500px;
   margin: 0;
   /* background-color: #191F27; */
   
@@ -130,8 +132,14 @@ z-index: 5;
  
 }
 
-#servicios{
+#referencias{
   background: #c4ffc7;
+}
+#referencias h4{
+  padding: 0 10%;
+  font-weight: 300;
+  color: var(--a3);
+  margin-bottom: 30px;
 }
 .sectionBackground{
 
@@ -153,4 +161,8 @@ height: 700px;
    
 }
 
-
+@keyframes expand {
+  from{height: 1px;};
+  to{height: 100px};
+  
+}

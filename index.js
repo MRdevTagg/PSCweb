@@ -11,11 +11,16 @@ var start_time;
 
 const s1_container = $('.slider-container');
 const slides1 = Array.from($$('.slide'));
+
+createSliderIndex('div','circle','.slider-index',slides1.length)
 const slider1 = $('.slider');
 const Slider_A = new Slider(s1_container,slider1,slides1,0,false,false);
 const Sliders = [Slider_A];
-createSliderIndex('div','circle','.slider-index',slides1.length)
+
 const sliderindex = Array.from($$('.circle'))
+
+
+
 let pastSec = null;
 let pastLink = null;
 let navRight= -50;

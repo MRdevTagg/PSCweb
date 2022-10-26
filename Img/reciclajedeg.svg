@@ -1,0 +1,132 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70">
+<defs>
+<radialGradient id="Gradient_1" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="208.06989510738933" fx="0.30411764705882344" fy="1.6033333333333333" gradientTransform="matrix( -0.1863556473654557, -0.9824823523580473, 1.306952646175206, -0.2477532848920501, -60.05,-119.6) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#BBEE76"/>
+
+<stop  offset="9.411764705882353%" stop-color="#92D534"/>
+
+<stop  offset="24.313725490196077%" stop-color="#73C101"/>
+
+<stop  offset="100%" stop-color="#276301"/>
+</radialGradient>
+
+<linearGradient id="Gradient_2" gradientUnits="userSpaceOnUse" x1="-149.0875" y1="12.274999999999991" x2="114.7875" y2="191.22500000000002" spreadMethod="pad">
+<stop  offset="0%" stop-color="#276301"/>
+
+<stop  offset="55.294117647058826%" stop-color="#73C101"/>
+
+<stop  offset="82.3529411764706%" stop-color="#BBEE76"/>
+
+<stop  offset="96.86274509803921%" stop-color="#8EB149"/>
+</linearGradient>
+
+<radialGradient id="Gradient_3" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="208.10232496598877" fx="-0.7881862745098038" fy="-0.21156862745098043" gradientTransform="matrix( 0.9658109299492375, 0.2592474640003053, -0.34502257488826543, 1.284884731795767, 134.35,4.1) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#BBEE76"/>
+
+<stop  offset="9.411764705882353%" stop-color="#92D534"/>
+
+<stop  offset="21.568627450980394%" stop-color="#73C101"/>
+
+<stop  offset="100%" stop-color="#276301"/>
+</radialGradient>
+
+<linearGradient id="Gradient_4" gradientUnits="userSpaceOnUse" x1="54.47500000000001" y1="-133.41250000000002" x2="-221.575" y2="26.312500000000014" spreadMethod="pad">
+<stop  offset="0%" stop-color="#276301"/>
+
+<stop  offset="55.294117647058826%" stop-color="#73C101"/>
+
+<stop  offset="82.3529411764706%" stop-color="#BBEE76"/>
+
+<stop  offset="96.86274509803921%" stop-color="#8EB149"/>
+</linearGradient>
+
+<radialGradient id="Gradient_5" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="208.03317982055174" fx="0" fy="0" gradientTransform="matrix( -0.7467558787209043, 0.6650982315385975, -0.8848949007018634, -0.9933511576290626, -71.55,103.8) " spreadMethod="pad">
+<stop  offset="0%" stop-color="#BBEE76"/>
+
+<stop  offset="9.411764705882353%" stop-color="#92D534"/>
+
+<stop  offset="23.92156862745098%" stop-color="#73C101"/>
+
+<stop  offset="100%" stop-color="#276301"/>
+</radialGradient>
+
+<linearGradient id="Gradient_6" gradientUnits="userSpaceOnUse" x1="87.28750000000001" y1="112.275" x2="105.1125" y2="-205.975" spreadMethod="pad">
+<stop  offset="0%" stop-color="#276301"/>
+
+<stop  offset="55.294117647058826%" stop-color="#73C101"/>
+
+<stop  offset="82.3529411764706%" stop-color="#BBEE76"/>
+
+<stop  offset="96.86274509803921%" stop-color="#8EB149"/>
+</linearGradient>
+
+<g id="S_mbolo_4_0_Layer0_0_FILL">
+<path fill="url(#Gradient_1)" stroke="none" d="
+M 239.55 -55.05
+L 239.9 -55.4
+Q 247.1 -73.9 241.6 -98.65
+L 122.2 -346.05 -87.15 -244.8 34.7 7.4
+Q 188.75 8.8 229.25 -38.25 235.75 -46.1 239.55 -55.05 Z"/>
+
+<path fill="url(#Gradient_2)" stroke="none" d="
+M 239.9 -55.4
+L 239.55 -55.05
+Q 235.75 -46.1 229.25 -38.25 188.75 8.8 34.7 7.4 -24.7 7.4 -100.15 -0.5
+L -92.95 -81.8 -243.95 121.65 -119.75 346.1 -115.95 253.45
+Q 22 276.75 44.3 253.8 66.95 231.15 148.6 103.85 230.3 -22.8 239.9 -55.4 Z"/>
+</g>
+
+<g id="Interpolaci_n_3_0_Layer0_0_FILL">
+<path fill="url(#Gradient_3)" stroke="none" d="
+M -53.75 245.7
+L -53.75 246.05
+Q -40 260.8 -15.65 266.65
+L 258.9 266.65 258.9 34 -21.15 34
+Q -89.4 171.95 -64.35 229.25 -60.25 238.5 -53.75 245.7 Z"/>
+
+<path fill="url(#Gradient_4)" stroke="none" d="
+M 44.75 -84.05
+L 115.1 -42.2 -2.6 -266.6 -258.95 -252.55 -176.9 -208.6
+Q -257.9 -94.35 -246.9 -64.15 -236.3 -34.3 -157.35 94.75 -78.8 223.4 -53.75 246.05
+L -53.75 245.7
+Q -60.25 238.5 -64.35 229.25 -89.4 171.95 -21.15 34 4.95 -19.2 44.75 -84.05 Z"/>
+</g>
+
+<g id="Interpolaci_n_2_0_Layer0_0_FILL">
+<path fill="url(#Gradient_5)" stroke="none" d="
+M -170.4 -185.85
+L -170.75 -186.2
+Q -190.3 -182.8 -208.45 -165.6
+L -359.1 63.95 -164.55 191.6 -11.15 -42.45
+Q -88.7 -175.25 -150.5 -185.85 -160.8 -187.6 -170.4 -185.85 Z"/>
+
+<path fill="url(#Gradient_6)" stroke="none" d="
+M 277.1 -39.7
+Q 225.95 -170.1 194.7 -177.3 163.85 -185.2 12.85 -189.65 -137.8 -194.8 -170.75 -186.2
+L -170.4 -185.85
+Q -160.8 -187.6 -150.5 -185.85 -88.7 -175.25 -11.15 -42.45 19.05 8.35 51.3 77.35
+L -22.15 113.35 230.05 138.05 359.1 -84.3 277.1 -39.7 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 0.056793212890625, 0, 0, 0.0567626953125, 35,35) ">
+<g transform="matrix( 0.998138427734375, -0.06097412109375, 0.06097412109375, 0.998138427734375, 307.45,165.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#S_mbolo_4_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -313.1,163.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Interpolaci_n_3_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 0.9995574951171875, -0.0297393798828125, 0.0297393798828125, 0.9995574951171875, -2.9,-323.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Interpolaci_n_2_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

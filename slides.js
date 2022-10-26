@@ -7,6 +7,7 @@ class Slider{
     this.positionX = positionX;
     this.moveRight = moveRight;
     this.canSwipe = canSwipe;
+    this.index = 0;
     
   }
   Update(){
