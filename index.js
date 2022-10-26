@@ -99,7 +99,7 @@ function Init(){
 $('nav').style.height = window.innerHeight +'px';
   
 links.forEach((link,index) =>{
-EV(link,'touchstart',() => {
+EV(link,start,() => {
   navHandler(index,links,sections);
  // showHideNav()
 })

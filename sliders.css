@@ -4,6 +4,7 @@
 
    /* background: rgba(4, 151, 255, 0.26);*/
 width: 100%;
+max-width: 500px;
 background: azure;
 padding: 60px 0;
 }
