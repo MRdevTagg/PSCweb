@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="168px" height="168px" viewBox="0 0 168 168">
 <defs>
 <g id="S_mbolo_14_2_Layer1_0_FILL">
-<path fill="#374D6B" stroke="none" d="
+<path fill="#283e28" stroke="none" d="
 M 111.85 -111.95
 Q 65.55 -158.25 0 -158.25 -65.55 -158.25 -111.95 -111.95 -158.3 -65.55 -158.3 0 -158.3 65.55 -111.95 111.85 -65.55 158.25 0 158.25 65.55 158.25 111.85 111.85 158.25 65.55 158.25 0 158.25 -65.55 111.85 -111.95 Z"/>
 </g>
@@ -18,7 +18,7 @@ Q 12.25 -49.9 17.7 -50.1
 L 18.25 -50.1 Z"/>
 </g>
 
-<path id="S_mbolo_14_2_Layer1_0_1_STROKES" stroke="#88A0C2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+<path id="S_mbolo_14_2_Layer1_0_1_STROKES" stroke="#283e28" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
 M 158.25 0
 Q 158.25 65.55 111.85 111.85 65.55 158.25 0 158.25 -65.55 158.25 -111.95 111.85 -158.3 65.55 -158.3 0 -158.3 -65.55 -111.95 -111.95 -65.55 -158.25 0 -158.25 65.55 -158.25 111.85 -111.95 158.25 -65.55 158.25 0 Z"/>
 </defs>
