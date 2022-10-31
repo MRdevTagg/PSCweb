@@ -41,7 +41,18 @@ class Slider{
   }
 }
 
-
+class TransitionedElement{
+  constructor(element,parent,src,waiting_time,transition_time){
+    this.element = element;
+    this.parent = parent;
+    this.src = src;
+    this.waiting_time = waiting_time;
+    this.transition_time = transition_time;
+  }
+  createEl(){
+    create()
+  }
+}
 
 
 

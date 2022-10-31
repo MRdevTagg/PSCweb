@@ -1,0 +1,37 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="168px" height="168px" viewBox="0 0 168 168">
+<defs>
+<g id="S_mbolo_14_2_Layer1_0_FILL">
+<path fill="#374D6B" stroke="none" d="
+M 111.85 -111.95
+Q 65.55 -158.25 0 -158.25 -65.55 -158.25 -111.95 -111.95 -158.3 -65.55 -158.3 0 -158.3 65.55 -111.95 111.85 -65.55 158.25 0 158.25 65.55 158.25 111.85 111.85 158.25 65.55 158.25 0 158.25 -65.55 111.85 -111.95 Z"/>
+</g>
+
+<g id="S_mbolo_14_2_Layer0_0_MEMBER_0_FILL">
+<path fill="#FFFFFF" stroke="none" d="
+M 18.25 -50.1
+Q 18.75 -50.1 19.35 -50.1
+L 35.8 -50.1 35.8 -76.35 4.65 -76.35
+Q -2.05 -75.45 -6.9 -72.45 -19.7 -64.65 -19.85 -42.5
+L -19.85 -30.5 -35.85 -30.5 -35.85 -0.25 -19.85 -0.25 -19.85 76.35 11.75 76.35 11.75 -0.25 33.6 -0.25 35.8 -30.5 11.75 -30.5 11.75 -42.5
+Q 12.25 -49.9 17.7 -50.1
+L 18.25 -50.1 Z"/>
+</g>
+
+<path id="S_mbolo_14_2_Layer1_0_1_STROKES" stroke="#88A0C2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 158.25 0
+Q 158.25 65.55 111.85 111.85 65.55 158.25 0 158.25 -65.55 158.25 -111.95 111.85 -158.3 65.55 -158.3 0 -158.3 -65.55 -111.95 -111.95 -65.55 -158.25 0 -158.25 65.55 -158.25 111.85 -111.95 158.25 -65.55 158.25 0 Z"/>
+</defs>
+
+<g transform="matrix( 0.49462890625, 0, 0, 0.49462890625, 84,84) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#S_mbolo_14_2_Layer1_0_FILL"/>
+
+<use xlink:href="#S_mbolo_14_2_Layer1_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#S_mbolo_14_2_Layer0_0_MEMBER_0_FILL"/>
+</g>
+</g>
+</svg>

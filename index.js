@@ -12,12 +12,17 @@ var start_time;
 const s1_container = $('.slider-container');
 const slides1 = Array.from($$('.slide'));
 
-createSliderIndex('div','circle','.slider-index',slides1.length)
+create({
+  node : 'div',
+  clase : 'circle',
+  parent :'.slider-index',
+  times : slides1.length})
+
 const slider1 = $('.slider');
 const Slider_A = new Slider(s1_container,slider1,slides1,0,false,false);
 const Sliders = [Slider_A];
 
-const sliderindex = Array.from($$('.circle'))
+const sliderindex = Array.from( $$('.circle') )
 
 
 
@@ -123,9 +128,10 @@ EV(sl.container,move,(e)=>{
   if(move === 'touchmove'){
     end_xPos = e.changedTouches[0].pageX;
     end_yPos = e.changedTouches[0].pageY;}
-    else{
+  else{
       end_xPos = e.pageX;
       end_yPos = e.pageY;}
+
     end_time = new Date();
     let move_x = end_xPos - start_xPos;
     let move_y = end_yPos - start_yPos;
@@ -134,26 +140,27 @@ EV(sl.container,move,(e)=>{
             if (move_x < 0 && sl.canSwipe) {
                  sl.moveRight = false;
                  sl.Slide();
+
                  sliderindex[i].style.transform = `scale(1)`;
                  sliderindex[i].style.background = `#cce0fa`;
                  if(i < sl.slides.length -1){i++}
                  sliderindex[i].style.transform = `scale(.7)`;
                  sliderindex[i].style.background = `#093c7e`;
+              } 
 
-                } if(move_x > 0 && sl.canSwipe) {
+            if(move_x > 0 && sl.canSwipe) {
                  sl.moveRight = true ;
                  sl.Slide();
                  
                  sliderindex[i].style.transform = `scale(1)`;
                  sliderindex[i].style.background = `#cce0fa`;
                  if( i> 0 ){i--}
-                 
                  sliderindex[i].style.transform = `scale(.7)`;
                  sliderindex[i].style.background = `#093c7e`;
 
             }
-        }
-});
+      }
+    });
 });
 
 EV($('.btnmenu'),start,showHideNav);
