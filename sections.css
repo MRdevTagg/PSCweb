@@ -81,7 +81,7 @@ background-color:#1c292d;;
  padding-bottom: 80px;
  padding-top: 30px;
 width: 100%;
-clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0 98%);
+clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0 99%);
 z-index: 5;
 
 
@@ -109,7 +109,7 @@ z-index: 5;
  
   border-radius: 15px;
 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) , inset 0 0 100px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) , inset 0 0 20px rgba(255,255,255, 0.05);
 }
 
 #nosotros img{
@@ -185,8 +185,7 @@ height: 700px;
   align-items: center;
   height: 780px;
   background: #bbdbbb;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 #contacto h2{
   font-size: 18px;
@@ -198,7 +197,7 @@ height: 700px;
   padding: 40px;
   background-color: var(--v5);
   border-radius: 0 0 50% 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5),INSET 0 -10px 20px rgba(255,255,255,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7),inset 0 -10px 20px rgba(255,255,255,.2);
 }
 #contacto h3{
   color: rgb(0, 37, 22);
@@ -211,9 +210,9 @@ border-radius: 8%;
   width:70%;
   margin-top: 30px;
   padding: 40px;
-  background-color: #579263;
+  background-color: #5e8d68;
   /* backdrop-filter: blur(7px); */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(255,255,255,.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(255,255,255,.2);
 }
 .contactanos input{
   color: #191F27;
