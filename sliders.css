@@ -17,6 +17,7 @@ padding: 60px 0;
   z-index: 4;
 }
 .slide{
+  position: relative;
   display:flex;
   flex-direction: column;
   color: #374d6b;
@@ -31,6 +32,11 @@ transform: scale(1);
  
   align-items:center;
   justify-content: center;
+  
+}
+.slide a{
+  position: absolute;
+  bottom: 10px;
   
 }
 .slide h3{

@@ -18,19 +18,26 @@ function inputUpdate(touch,mouse){
 		let move = inputUpdate('touchmove','mousemove')
 		let end = inputUpdate('touchend','click')
 
-const create = ({node = 'div',parent = 'body',clase ='newElement',id = null, html = null,src=null,times = 1})=>{
- let el = document.createElement(node);
+const create = ({
+  node = 'div',
+  parent = 'body',
+  clase ='newElement',
+  id = null, 
+  html = null,
+  src=null,
+  times = 1})=>{
+    let el = document.createElement(node);
 
- if(nNull(clase)) { addClass(el, clase); }
- if(nNull(id)) { el.setAttribute('id',`${id}--${times}`)}
- if(nNull(html)) { el.innerHTML = html }
- if(nNull(src)) {el.setAttribute('src', src )}
+    if(nNull(clase)) { addClass(el, clase); };
+    if(nNull(id)) { el.setAttribute('id',`${id}--${times}`)};
+    if(nNull(html)) { el.innerHTML = html };
+    if(nNull(src)) {el.setAttribute('src', src )};
  
- $(parent).appendChild(el);
- console.log(el)
- times--
- if(times > 0){
-  create({node,parent,clase,id,html,src,times})
- }
- else return
+    $(parent).appendChild(el);
+    times--;
+    console.log(el);
+    if(times > 0){
+        create({node,parent,clase,id,html,src,times});
+      }
+    else return
 }
