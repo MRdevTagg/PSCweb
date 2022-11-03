@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="558px" height="584px" viewBox="0 0 558 584">
+<defs>
+<g id="Layer0_1_MEMBER_1_FILL">
+<path fill="#00CC33" stroke="none" d="
+M 297.4 489.55
+Q 293.6 489.2 293 489.2 292.85 487.65 292.5 482.25
+L 292.2 477.15 278 503.3 295.1 528.75 294.2 517.2 301.1 516.8
+Q 308.5 516.25 311.05 515.55 313.6 514.45 314.65 513.4 315.8 512.3 317.2 509.4 319.35 504.75 321.2 500.8 324.75 493.2 329.15 484.75 318.85 489.35 305.85 489.75 301.8 489.85 297.4 489.55
+M 304.7 470.2
+Q 314.15 484.55 315.2 486.85 329.15 483.5 333.6 477.35 337.1 472.45 334.45 466.4 330.7 460.15 324.3 450 321.05 444.9 318.6 441.1
+L 295.45 456.35
+Q 299.95 463.05 304.7 470.2
+M 269.3 490.3
+Q 261.2 490 252.65 489.6 235.5 488.8 233 488.35 227.5 501.55 229.85 508.75 231.75 514.5 238.2 515.9 245.45 516.6 257.45 517.35 263.45 517.75 268 518
+L 269.3 490.3
+M 244.15 468.95
+Q 245.5 469.75 250.05 472.7
+L 254.35 475.45 241.6 448.6 211 447.4 220.85 453.5 217.1 459.25
+Q 213.15 465.55 212.25 468.05 211.65 470.75 211.85 472.25 212.05 473.85 213.6 476.65 216.1 481.1 218.2 484.95 222.25 492.3 226.5 500.8 228.85 489.8 236.2 479.05 238.45 475.7 241.3 472.3 243.8 469.45 244.15 468.95
+M 273.7 419.45
+Q 264.7 408.35 257.2 407 251.3 405.95 246.95 410.95 242.95 417 236.55 427.2 233.35 432.3 231 436.15
+L 254.75 450.45
+Q 258.85 443.5 263.3 436.15 272.1 421.4 273.7 419.45
+M 293.2 407.9
+Q 288.05 408 283.7 408.05 275.35 408.1 265.8 407.8 274.4 415.1 280.35 426.65 282.25 430.25 283.85 434.35 285.2 437.9 285.45 438.45 284.1 439.25 279.4 441.9
+L 274.9 444.35 304.6 445.9 320.2 419.5 310.15 425.3 306.85 419.25
+Q 303.15 412.8 301.4 410.8 299.3 408.95 297.9 408.45 296.4 407.9 293.2 407.9 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1.3910675048828125, 0, 0, 1.3910675048828125, 181.9,452.45) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-10.55" y="-2" width="165.1" height="49.25" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="-8.5" y="36.7" baseline-shift="0%" font-family="Ebrima" font-size="34" fill="#DCE6C4" xml:space="preserve">CLICK ACÁ</tspan></text>
+</g>
+
+<g transform="matrix( 0.935882568359375, 0, 0, 0.935882568359375, 87.2,237.45) ">
+<clipPath id="Mask_Mask_2">
+<rect x="-2" y="-2" width="420.3" height="63.85" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_2)" writing-mode="lr"><tspan x="0" y="48.55" baseline-shift="0%" font-family="Ebrima" font-size="45" fill="#00CC33" xml:space="preserve">Trabaja con nosotros</tspan></text>
+</g>
+
+<g transform="matrix( 0.935882568359375, 0, 0, 0.935882568359375, 26.25,-279.9) ">
+<use xlink:href="#Layer0_1_MEMBER_1_FILL"/>
+</g>
+
+<g transform="matrix( 0.935882568359375, 0, 0, 0.935882568359375, 101.8,310.75) ">
+<clipPath id="Mask_Mask_3">
+<rect x="-2" y="-2" width="389.2" height="111.8" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_3)" writing-mode="lr"><tspan x="46.8" y="28.05" baseline-shift="0%" font-family="Ebrima" font-size="26" fill="#DCE6C4" xml:space="preserve">sumáte a nuestro equipo, </tspan><tspan x="1.7" y="64.65" baseline-shift="0%" font-family="Ebrima" font-size="26" fill="#DCE6C4" xml:space="preserve">capacitáte y ayudanos a construir </tspan><tspan x="96.3" y="101.25" baseline-shift="0%" font-family="Ebrima" font-size="26" fill="#DCE6C4" xml:space="preserve">un mundo mejor</tspan></text>
+</g>
+</svg>

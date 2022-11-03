@@ -37,7 +37,7 @@ transform: scale(1);
 .slide a{
   position: absolute;
   bottom: 10px;
-  
+  color: var(--a3);
 }
 .slide h3{
   
