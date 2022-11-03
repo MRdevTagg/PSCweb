@@ -30,7 +30,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
  
-  <link rel="preload" href="normaliza.css" as ="style">
+  
 
   <link rel="preload" href="buttons.css" as ="style">
   <link rel="preload" href="sliders.css" as ="style">
@@ -93,10 +93,10 @@ background-size:contain;background-repeat:no-repeat;width: 80%;height: 150px; po
         
     <h4> Gestión <br> Responsable de <br> Residuos </h4>
     </div> 
-    <button id="aprende"style="border:none;background:url('Img/aprende.svg');
-  background-size:contain;background-repeat:no-repeat;width: 150px;height: 150px; position: absolute; bottom: 200px; right: 24px; "></button>
+    <!-- <button id="aprende"style="border:none;background:url('Img/aprende.svg');
+  background-size:contain;background-repeat:no-repeat;width: 150px;height: 150px; position: absolute; bottom: 400px; right: 24px; "></button>
 
-    
+     -->
 </section>
 <!-- FIN INICIO -->
 
@@ -140,7 +140,7 @@ background-size:contain;background-repeat:no-repeat;width: 80%;height: 150px; po
   <div class="quienes-somos">
     <div class="subtitulo">
       <h1>OBJETIVO</h1></div>
-      <img src="Img\mundo.svg" alt="" srcset="" class="scrollAnim scale FadeIn">
+      <img src="Img\mundo.svg" alt="" srcset="" class="scrollAnim scale FadeIn" style="margin-top: 80px;">
     <h3> Hoy más que nunca es necesario tomar conciencia de la 
       gran problematica ambiental que atravesamos a nivel mundial. </h3> 
       <div class="tachos" style="display: flex; margin-top: 40px; ">
@@ -151,18 +151,18 @@ background-size:contain;background-repeat:no-repeat;width: 80%;height: 150px; po
       <h3> Y por eso es que estamos continuamente trabajando por brindar un servicio 
        más accesible y eficiente. para que juntos  podamos marcar la diferencia 
        y mejorar nuestra calidad de vida entre tod@s.
-   
     </h3>
   </div> 
 
 
-<!-- NUWATRO EQUIPO -->
+<!-- NUESTRO EQUIPO -->
   <div class="quienes-somos"> 
   
   <div class="subtitulo">
     <h1>Nuestro Equipo</h1></div>
     <picture style="clip-path: polygon(0 0%, 100% 0%, 100% 95%, 0 100%);display: flex; width:100%;
-    height:400px; background: url('Img/Recursos/c11.jpeg'); background-size: cover; background-repeat: no-repeat;"></picture>
+    height:400px; background: url('Img/Recursos/c11.jpeg'); background-size: cover; 
+    background-repeat: no-repeat;"></picture>
   <h3 style="box-shadow: none;"> 
     Con una amplia experiencia en el rubro y un equipo altamente calificado. 
     Siguiendo un método de trabajo organizado y consistente.
@@ -170,7 +170,7 @@ background-size:contain;background-repeat:no-repeat;width: 80%;height: 150px; po
   capacitación en constante actualización. <br>
   </h3>
    </div>  
-<!-- fin NUWATRO EQUIPO -->
+<!-- fin NUESTRO EQUIPO -->
 
 
 
@@ -270,12 +270,28 @@ background-size:contain;background-repeat:no-repeat;width: 80%;height: 150px; po
       
       <label for="tel">Teléfono:</label>
       <input type="tel"id="tel"placeholder="Número de teléfono">
+      
     </form>
   </div>
-  <h3 style="margin-bottom: 0;">También podemos encontrarnos en:</h3>
+  <div class="contactanos"><h3 style="color: #fff;">Si estas interesad@ en formar parte de nuestro equipo, llena el siguiente formulario y envíanos tu currículum: <br><br></h3>
+    <form action="submit" style="display:flex; flex-direction:column">
+      <label for="nombre">Nombre:</label>
+      <input id="nombre"type="text" placeholder="Tu Nombre">
+      <label for="Rubro">Apellido</label>
+      <input id="apellido"type="text"placeholder="Tu Apellido">
+      <label for="mail">e-mail:</label>
+      <input type="email" name="mail" id="mail"placeholder="Tu e-mail">
+      
+      <label for="tel">Teléfono:</label>
+      <input type="tel"id="tel"placeholder="Número de teléfono">
+      <label for="cv">Adjunta tu C.V</label>
+      <input type="file" id="cv">
+    </form>
+  </div>
+  <h3 style="margin-top: 20px;">También podemos encontrarnos en:</h3>
   <div class="redes">
     <img src="Img\Iconos\redes-fb.svg" alt="">
-    <img src="Img\Iconos\redes-ig.svg" alt="">
+   <a href="https://www.instagram.com/prosercom23/"><img src="Img\Iconos\redes-ig.svg" alt=""></a>
     <img src="Img\Iconos\redes-in.svg" alt="">
   </div>
  </section>
