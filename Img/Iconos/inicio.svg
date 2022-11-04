@@ -1,39 +1,66 @@
 
-
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="120px" viewBox="0 0 550 120">
 <defs>
-
-<g id="ICONOS_0_Layer0_0_FILL">
+<g id="Links_2_Layer2_0_FILL">
 <path fill="#C1F6C4" stroke="none" d="
-M 3.25 5.9
-L 3.25 13.05 8.45 13.05
-Q 9.8 13.05 9.8 12.05
-L 9.8 1.2 13 1.2 0.05 -13 -13 1.2 -9.75 1.2 -9.75 12.05
-Q -9.75 13.05 -8.45 13.05
-L -3.25 13.05 -3.25 5.9
-Q -3.25 4.95 -2.3 4.25 -1.35 3.55 0.05 3.55 1.4 3.55 2.3 4.25 3.25 4.95 3.25 5.9 Z"/>
+M 27.9 -3.15
+Q 27.85 -10.45 24.4 -14.5 21 -18.55 15.05 -18.55 9.05 -18.55 5.65 -14.4 2.25 -10.3 2.25 -3
+L 2.25 3.1
+Q 2.3 10.15 5.7 14.1 9.15 18 15.1 18 21.1 18 24.5 14.05 27.9 10.1 27.9 2.9
+L 27.9 -3.15
+M 9.4 -3.4
+Q 9.45 -8 10.85 -10.25 12.2 -12.55 15.05 -12.55 17.95 -12.55 19.3 -10.2 20.7 -7.85 20.7 -3.05
+L 20.7 3.15
+Q 20.65 7.7 19.3 9.85 17.9 12 15.1 12 12.2 12 10.8 9.8 9.4 7.6 9.4 2.9
+L 9.4 -3.4
+M -3.2 -18.05
+L -10.4 -18.05 -10.4 17.5 -3.2 17.5 -3.2 -18.05
+M -36.55 -14.55
+Q -39.85 -10.6 -39.85 -3.3
+L -39.85 2.7
+Q -39.85 10.05 -36.65 14.05 -33.45 18 -27.4 18 -21.65 18 -18.5 14.85 -15.35 11.75 -15.1 5.65
+L -22.25 5.65
+Q -22.4 9.25 -23.5 10.65 -24.55 12.05 -27.4 12.05 -30.3 12.05 -31.45 10.05 -32.65 8.1 -32.65 2.8
+L -32.65 -3.95
+Q -32.6 -8.55 -31.4 -10.55 -30.2 -12.6 -27.3 -12.6 -24.45 -12.6 -23.4 -11.15 -22.35 -9.7 -22.25 -5.95
+L -15.05 -5.95
+Q -15.45 -12.05 -18.45 -15.3 -21.5 -18.55 -27.3 -18.55 -33.2 -18.55 -36.55 -14.55
+M -45.25 -18.05
+L -52.45 -18.05 -52.45 17.5 -45.25 17.5 -45.25 -18.05
+M -58.5 -18.05
+L -65.65 -18.05 -65.65 5.3 -76.15 -18.05 -83.35 -18.05 -83.35 17.5 -76.15 17.5 -76.15 -5.8 -65.65 17.5 -58.5 17.5 -58.5 -18.05
+M -89.4 -18.05
+L -96.6 -18.05 -96.6 17.5 -89.4 17.5 -89.4 -18.05 Z"/>
 </g>
 
-<path id="Layer0_0_1_STROKES" stroke="#3EEB3D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+<g id="Links_2_Layer0_0_MEMBER_0_MEMBER_0_MEMBER_0_MEMBER_0_FILL">
+<path fill="#C1F6C4" stroke="none" d="
+M 101.55 61.2
+L 110.8 61.2 73.25 20.05 35.45 61.2 44.85 61.2 44.85 92.65
+Q 44.85 95.55 48.65 95.55
+L 63.7 95.55 63.7 74.85
+Q 63.7 72.05 66.45 70.05 69.25 68 73.25 68 77.15 68 79.8 70.05 82.55 72.05 82.55 74.85
+L 82.55 95.55 97.6 95.55
+Q 101.55 95.55 101.55 92.65
+L 101.55 61.2 Z"/>
+</g>
+
+<path id="Links_2_Layer1_0_MEMBER_0_MEMBER_0_1_STROKES" stroke="#3EEB3D" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
 M 145.6 10
 L 145.6 110"/>
 </defs>
 
+<g transform="matrix( 1, 0, 0, 1, 273.9,64) ">
 <g transform="matrix( 1, 0, 0, 1, 0,0) ">
-<use xlink:href="#Layer0_0_1_STROKES"/>
+<use xlink:href="#Links_2_Layer2_0_FILL"/>
 </g>
 
-<g transform="matrix( 2.8993682861328125, 0, 0, 2.8993682861328125, 73.15,57.7) ">
-<g transform="matrix( 1, 0, 0, 1, 0,0) ">
-<use xlink:href="#ICONOS_0_Layer0_0_FILL"/>
-</g>
+<g transform="matrix( 1, 0, 0, 1, -275,-60) ">
+<use xlink:href="#Links_2_Layer1_0_MEMBER_0_MEMBER_0_1_STROKES"/>
 </g>
 
-<g transform="matrix( 1, 0, 0, 1, 175.25,30) ">
-<clipPath id="Mask_Mask_1">
-<rect x="-2" y="-2" width="170.15" height="64" fill="#FFFFFF" stroke="none"/>
-</clipPath>
-
-<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="47.5" baseline-shift="0%" font-family="Roboto Condensed" font-weight="bold" font-size="50" fill="#C1F6C4" xml:space="preserve">INICIO</tspan></text>
+<g transform="matrix( 1, 0, 0, 1, -275,-60) ">
+<use xlink:href="#Links_2_Layer0_0_MEMBER_0_MEMBER_0_MEMBER_0_MEMBER_0_FILL"/>
+</g>
 </g>
 </svg>
