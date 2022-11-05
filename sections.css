@@ -1,4 +1,5 @@
-section{position: relative;
+section{
+  /* position: relative; */
 
 overflow: hidden;
  margin: 0;
@@ -12,6 +13,7 @@ overflow: hidden;
   background-color: #191F27;
   background: url("Img/Abkhazia-sea-mountains-1.jpg");
   background-size: cover;
+  z-index: 3;
 
 }
 #inicio .contactanos{
@@ -70,8 +72,7 @@ overflow: hidden;
   padding: 0 20%;
 }
 #nosotros{
-  margin-top: -40px;
-  margin-bottom: -60px;
+ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,9 +80,9 @@ overflow: hidden;
   height: fit-content;
 background-color:#1c292d;
  padding-bottom: 80px;
- padding-top: 30px;
+ 
 width: 100%;
-clip-path: polygon(0 1%, 100% 0%, 100% 100%, 0 99%);
+
 z-index: 5;
 
 
@@ -113,19 +114,29 @@ z-index: 5;
  
   border-radius: 15px;
 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) , inset 0 0 20px rgba(255,255,255, 0.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.055) , inset 0 0 20px rgba(255,255,255, 0.05);
 }
 #nosotros .subtitulo{
   display: flex; 
+ 
+  top: 0;
   height:80px;
   width:100%;
   padding: .2rem 0; 
   background-color: #003b3b; 
   margin:0 0 0 0;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.176), 0 0 40px #000d00;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.176), 0 0 40px #000d03;
   z-index: 3;
 }
+#nosotros .objetivo{
+  /* color: #336a46 ; */
+  /* box-shadow: none;  */
+  /* font-weight: 600;  */
 
+  padding: 2rem;
+  margin: 1rem; 
+  background-color: #ffffff02; 
+}
 #nosotros img{
   max-height: 200px;
   object-fit: contain;
@@ -146,7 +157,7 @@ z-index: 5;
   align-items: center;
   width: 100%;
   height: fit-content;
-  margin-bottom: 30px;
+  
   padding: 0 50px;
   
  
@@ -192,8 +203,8 @@ height: 700px;
   margin-bottom: 80px;
 }
 #contacto{
-   display: flex;
-   width: 100%;
+  display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
