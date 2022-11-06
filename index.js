@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded',Init);
 var min_horizontal_move = 50;
 var max_vertical_move = 50;
 var within_ms = 300 ;
-let i = 0
+
 var start_xPos;
 var start_yPos;
 var start_time;
@@ -23,7 +23,7 @@ const Slider_A = new Slider(s1_container,slider1,slides1,0,false,false);
 const Sliders = [Slider_A];
 
 const sliderindex = Array.from( $$('.circle') )
-
+let i = 0
 
 
 let pastSec = null;
