@@ -9,7 +9,7 @@ overflow: hidden;
 }
 #inicio{
   height: 700px;
- overflow-y: hidden;
+  overflow-y: hidden;
   background-color: #191F27;
   background: url("Img/Abkhazia-sea-mountains-1.jpg");
   background-size: cover;

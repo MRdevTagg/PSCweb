@@ -11,6 +11,10 @@ var start_time;
 
 const s1_container = $('.slider-container');
 const slides1 = Array.from($$('.slide'));
+let it = 0;
+const $preloader = document.querySelector('.preloader');
+const $loadInt = document.querySelector('.preloader p');
+const $loading = document.querySelector('.loader');
 
 create({
   node : 'div',
@@ -101,6 +105,30 @@ const navHandler = function (i,li,sec){
   
 function Init(){
   
+  if(it<100){
+    interval = setInterval(()=>{
+      it++
+    $loading.style.width = ' '+it+'%'
+    $loadInt.innerHTML = 'Cargando . . .<br>'+it+'%';
+    if(it>99){
+        $loadInt.innerHTML = 'Cargando . . .<br>100%'
+        i=100
+    clearInterval(interval) 
+ }},20)
+ 
+ }
+   setTimeout(()=>{
+     
+     $preloader.style.opacity = 0;
+     setTimeout(()=>{
+     $preloader.style.display = 'none';
+   },1300)
+   },1500)
+
+
+
+
+
 $('nav').style.height = window.innerHeight +'px';
   
 links.forEach((link,index) =>{
