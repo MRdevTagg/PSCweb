@@ -25,9 +25,7 @@ const bgChange = ({
 
 	if(counter === time_seconds*60){
 		counter = 0
-		index < src.length -1 ?
-		index +=1 :
-		index = 0;
+		index < src.length -1 ? index +=1 : index = 0;
 		
 			let temp1 = bg1;
 			let	temp2 = bg2;
@@ -36,10 +34,8 @@ const bgChange = ({
 
 		ID(bg1).style.background = `url(${src[index]})`;
 		ID(bg1).style.opacity = '1';
-
-		
 		EV(ID(bg1),'transitionend',()=>{
-				ID(bg2).style.opacity = '0';
+			 ID(bg2).style.opacity = '0';
 		})
 
 
