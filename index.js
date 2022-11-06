@@ -4,14 +4,15 @@ window.addEventListener('DOMContentLoaded',Init);
 var min_horizontal_move = 50;
 var max_vertical_move = 50;
 var within_ms = 300 ;
-
+let i = 0
 var start_xPos;
 var start_yPos;
 var start_time;
+let it = 0;
 
 const s1_container = $('.slider-container');
 const slides1 = Array.from($$('.slide'));
-let it = 0;
+
 const $preloader = document.querySelector('.preloader');
 const $loadInt = document.querySelector('.preloader p');
 const $loading = document.querySelector('.loader');
@@ -27,7 +28,7 @@ const Slider_A = new Slider(s1_container,slider1,slides1,0,false,false);
 const Sliders = [Slider_A];
 
 const sliderindex = Array.from( $$('.circle') )
-let i = 0
+
 
 
 let pastSec = null;
@@ -112,7 +113,7 @@ function Init(){
     $loadInt.innerHTML = 'Cargando . . .<br>'+it+'%';
     if(it>99){
         $loadInt.innerHTML = 'Cargando . . .<br>100%'
-        i=100
+        it=100
     clearInterval(interval) 
  }},20)
  
