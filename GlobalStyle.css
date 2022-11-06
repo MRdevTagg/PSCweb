@@ -63,7 +63,7 @@
   
   width: 50%;
   height:10px;
-  border: 1px solid white;
+  border: 1px solid var(--v1);
   background: black;
   border-radius: 3px;
 }

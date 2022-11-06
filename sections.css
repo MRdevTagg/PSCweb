@@ -7,6 +7,17 @@ overflow: hidden;
  border: none;
  outline: 0;
 }
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 0 50px;
+  
+ 
+}
 #inicio{
   height: 700px;
   overflow-y: hidden;
@@ -35,7 +46,7 @@ overflow: hidden;
   width:100%;
   color: white;
   text-align: center;
-  background-color: #000000a7;
+  background-color: #00000073;
   z-index: 3;
 
 }
@@ -44,6 +55,7 @@ overflow: hidden;
   height: 100px;
   background-color: #72d0ea;
   animation:expand 1s ease 1s 1 normal;
+  margin-left: 2rem;
 }
 .titulo h4{
   width: 70%;
@@ -78,7 +90,7 @@ overflow: hidden;
   align-items: center;
   justify-content: center;
   height: fit-content;
-background-color:#1c292d;
+background-color:var(--a4);
  padding-bottom: 80px;
  
 width: 100%;
@@ -116,6 +128,22 @@ z-index: 5;
 
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.055) , inset 0 0 20px rgba(255,255,255, 0.05);
 }
+#nuestro-equipo h3{
+  z-index: 4; 
+  background-color: #034a549c;
+  backdrop-filter: blur(5px); 
+  color: #f9f9f9;
+  font-weight: 400; 
+  padding: .5rem 1rem;
+  
+}
+.txt{
+  width:70%
+    ;display:flex;flex-direction:column; height:fit-content;margin-left:1.5rem; 
+}
+#info .txt{
+  margin-top: 20px;
+}
 #nosotros .subtitulo{
   display: flex; 
  
@@ -123,9 +151,9 @@ z-index: 5;
   height:80px;
   width:100%;
   padding: .2rem 0; 
-  background-color: #003b3b; 
+  background-color: #000808be; 
   margin:0 0 0 0;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.176), 0 0 40px #000d03;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.111), 0 0 40px #000d03;
   z-index: 3;
 }
 #nosotros .objetivo{
@@ -150,18 +178,7 @@ z-index: 5;
   margin: 0;
   /*background-color: #191F27;*/
 }
-#nosotros .quienes-somos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: fit-content;
-  
-  padding: 0 50px;
-  
- 
-}
+
 #EPP{
   position: relative;
   display: flex;
