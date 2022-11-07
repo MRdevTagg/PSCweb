@@ -12,7 +12,7 @@
   --a3:#374d6b;
   --a4:#191f27;
 
-
+--equipo:rgba(81, 138, 154, 0.739);
 
 }
 .preloader{
@@ -88,7 +88,7 @@ font-family: 'Roboto Condensed', sans-serif;
 body{
   
 
-  background-color: var(--a4);
+  background-color: black;
 
 
 }
@@ -282,6 +282,12 @@ nav ul li img{
   nav{width: 20%;}
   nav .rrr{ font-size: 15px;}
 }@media (min-width: 801px) {
+
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
      nav{width: 10%;}
      nav .rrr{ font-size: 15px;}
 }

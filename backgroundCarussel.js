@@ -32,7 +32,7 @@ const bgChange = ({
 			bg2 = temp1;
 			bg1 = temp2;
 
-		ID(bg1).style.background = `url(${src[index]})`;
+		ID(bg1).style.backgroundImage = `url(${src[index]})`;
 		ID(bg1).style.opacity = '1';
 		EV(ID(bg1),'transitionend',()=>{
 			 ID(bg2).style.opacity = '0';

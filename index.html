@@ -31,13 +31,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
  
   
-
-  <link rel="preload" href="buttons.css" as ="style">
-  <link rel="preload" href="sliders.css" as ="style">
-  <link rel="preload" href="sections.css" as ="style">
-  <link rel="preload" href="scrollCSS.css" as ="style">
-  <link rel="preload" href="scrollobserver.css" as ="style">
-  <link rel="preload" href="GlobalStyle.css" as ="style">
  
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="GlobalStyle.css">
@@ -118,7 +111,7 @@
       <h1 style="text-align: center; padding: 0 0 0 0 ;"></h1>
     </div>
 
-  <article style="padding-bottom: 3rem;">
+  <article id="historia" style="padding-bottom: 3rem;">
     <img class="logoN scrollAnim FadeIn" src="Img\logoPSCF.svg" alt="Logo-PSC" style="margin-top:40px;" >
     <h3 style="padding:
       30px;box-shadow: none;
@@ -154,16 +147,19 @@
 </article>  
   <!-- FIN Permisos IMM IC -->
 
-  <article style="background-color:var(--a4) ;padding-bottom: 3rem;">
+  <article id="objetive"style="background-color:var(--a4); padding-bottom: 3rem;">
     <div class="titulo"style="text-align: left; padding:.5rem; margin:0;">
       <div class="line"></div>
       <div class="txt"><h4 style="padding: 0; margin: 0 0 .3rem;">OBJETIVO</h4>
-      <p  >Laboriosam asperiores voluptates nulla earum a eum ratione atque corporis, similique cum exercitationem.</p></div>
+      <p  >Hoy más que nunca es necesario tomar conciencia de la <br>
+        gran problematica ambiental que atravesamos a nivel mundial.</p></div>
       
     </div>
+
+  <div class="container">
       <img src="Img\mundo.svg" alt="" srcset="" class="scrollAnim scale FadeIn" style="margin-top: 80px;">
     
-    
+    <div class="objt">
         <h3 class="objetivo scrollAnim fadeRight FadeIn">
         En el año 2016, nace <br> Professional Service Company (PSC).
         Una empresa que esta continuamente trabajando por brindar un servicio 
@@ -171,40 +167,46 @@
         <h3 class="objetivo scrollAnim scale FadeIn">
         Nuestro objetivo es añadir a los establecimientos y 
         comercios el valor de tener un servicio con menor costo, mas rápido y mas efectivo 
-        para que juntos  podamos marcar la diferencia 
+        para que juntos podamos marcar la diferencia 
         y mejorar nuestra calidad de vida entre tod@s.</h3>
-        <h3 class="objetivo scrollAnim fadeLeft FadeIn"> Hoy más que nunca es necesario tomar conciencia de la 
-        gran problematica ambiental que atravesamos a nivel mundial. </h3>    
+      </div>   
+    
+    </div>
   </article> 
 
 
 <!-- NUESTRO EQUIPO -->
-  <article id="nuestro-equipo"style=" margin:0; position: relative;height:600px;"> 
+  <article id="nuestro-equipo"style=" margin:0; position: relative;"> 
   
-    <div class="titulo"style="text-align: left;padding:.5rem; margin:0;background: rgba(0,0,0,.8);top:0;">
-      <div class="line"></div>
-      <div class="txt"><h4 style="padding: 0; margin: 0 0 .3rem;">NUESTRO EQUIPO</h4>
+    <div class="titulo"style="text-align: left;padding:.5rem; margin:0;background: linear-gradient(to right,rgba(0, 60, 85, 0.9),rgba(0, 88, 112, 0.739)50%,rgba(0, 88, 112, 0)95%,rgba(0, 88, 112, 0));margin-top:50px;">
+      <div class="line" ></div>
+      <div class="txt"><h4 style="padding: 0; margin: 0 ;font-size: 22px;">NUESTRO EQUIPO</h4>
         <p style="padding: 0 1.5rem 0 0;" >Con una amplia experiencia en el rubro y un equipo altamente calificado. 
           </p></div>
         
-      </div></div>
+      </div>
 <div class="txt">
-  <h3> Nuestro personal es evaluado física y psicológicamente. </h3>
-  <h3> También cuenta con una capacitación en constante actualización. </h3>
-  <h3> Seguimos un método de trabajo organizado, consistente y adaptado a cada necesidad. </h3>
+ <img src="Img\Iconos\actualizar.svg" alt="">  
+ <h3 class="scrollAnim fadeRight FadeIn" >Nuestro personal es evaluado física y psicológicamente. </h3>
+  <h3 class="scrollAnim fadeRight FadeIn" style="transition-delay: .5s;"> También cuenta con una capacitación en constante actualización. </h3>
+  <h3 class="scrollAnim fadeRight  FadeIn" style="transition-delay: 1s;"> Seguimos un método de trabajo organizado, consistente y adaptado a cada necesidad.</h3>
  </div>
   <div id="bg1" class="bg"></div>
 <div id="bg2" class="bg"></div>   
-</article>
+
 
 <!-- fin NUESTRO EQUIPO -->
 
 
 
 
- 
+ </article>
  <div id="EPP">
- <img src="Img\Iconos\EPP-Todos.svg" alt="EPP" style="padding:1.6rem;background:rgba(0, 0, 0, .1);width: 80%; "class="scrollAnim scale FadeIn">
+  <div class="titulo"style=" margin: 100px 0 50px 0;
+    padding:.5rem;
+    background:rgba(0, 0, 0, .1);align-items:center; justify-content:center;"> 
+    <img src="Img\Iconos\EPP-Todos.svg" style="width:80%; max-width: 300px; margin: 0; " alt="EPP" class="scrollAnim scale FadeIn">
+</div>
   <div class="tachos" style="display: flex; justify-content: space-around;">
     <img src="Img\Iconos\EPP-mascara.svg" alt="" style="width: 80px;"class="scrollAnim fadeRight FadeIn">
     <img src="Img\Iconos\EPP-casco.svg" alt="" style="width: 80px;"class="scrollAnim scale FadeIn">
@@ -220,7 +222,7 @@
     
 </div>
 <button style="border:none;background:url('Img/trabaja.svg');
-  background-size:contain;background-repeat:no-repeat;width: 300px;;height: 350px;"></button>
+  background-size:contain;background-repeat:no-repeat;width: 200px;;height: 200px;"></button>
 
 
 
@@ -271,8 +273,10 @@
  
  
  <section id="contacto">
-  <h2>Trabajemos Juntos para mejorar <br>la calidad de  vida de Tod@s!</h2>
-  
+  <div class="titulo"style="text-align: left; padding:.5rem; margin:40px 0 0;">
+    <div class="line"></div>
+  <h4>Trabajemos Juntos<p>Para mejorar la calidad de vida de Tod@s!</p></h4></div>
+  <div class="formularios">
   <div class="contactanos"><h3 style="color: #fff;">Si eres una empresa o institución llena el siguiente formulario para agendarte: <br><br></h3>
     <form action="submit" style="display:flex; flex-direction:column">
       <label for="nombre">Nombre:</label>
@@ -302,6 +306,7 @@
       <input type="file" id="cv">
     </form>
   </div>
+</div>
   <h3 style="margin-top: 20px;">También podemos encontrarnos en:</h3>
   <div class="redes">
     <img src="Img\Iconos\redes-fb.svg" alt="">
@@ -312,8 +317,15 @@
 
 
  <section id="info">
-    <h1>En Proceso....</h1>
-    <img src="Img\Iconos\mundoreciclado.svg" alt="">
+  <div class="subtitulo"></div>
+  <div class="titulo"style="align-items:center;text-align: left;padding:.5rem; margin:0;background: linear-gradient(to right,rgba(0, 50, 77, 0.9),rgba(0, 88, 112, 0.739)50%,rgba(0, 88, 112, 0)95%,rgba(0, 88, 112, 0));margin-top:50px;">
+    <div class="line" ></div>
+    <div class="txt" style="display: flex; justify-content: center; align-items: flex-start;"><h4 style="padding: 0; margin: 0 0 .5rem;font-size: 22px;">Evolucionamos Juntos</h4>
+      <p style="padding: 0 1.5rem 0 0;" >Aprende a reciclar, informate y hace tu aporte para vivir en un mundo mejor 
+        </p></div>
+      
+    </div>
+   
  </section>
 
 </main>

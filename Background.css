@@ -1,11 +1,22 @@
 .bg{
 	position: absolute;
 	width: inherit;
-	height: 600px;;
-	background-size: contain;
+	height: 600px;
+	background-size: cover;
 	transition: all 4s;
-	top:0;}
+	top:0;
+border-radius: 0 0 40% 0;}
 	#bg1{
-		background: url('Img/Recursos/c1.jpeg');
+		
+		background-image: url('Img/Recursos/c1.jpeg');
+		opacity: 0;}
+	#bg2{
+	
+		background-image: url('Img/Recursos/c1.jpeg');
 		opacity: 1;}
-	#bg2{opacity: 0;}
+		@media (min-width: 801px) {
+			.bg{background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center;}
+				 
+		}

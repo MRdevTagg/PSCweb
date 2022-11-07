@@ -1,6 +1,6 @@
 section{
   /* position: relative; */
-
+  width: 100%;
 overflow: hidden;
  margin: 0;
  padding:0 ;
@@ -18,6 +18,7 @@ article{
   
  
 }
+
 #inicio{
   height: 700px;
   overflow-y: hidden;
@@ -25,6 +26,7 @@ article{
   background: url("Img/Abkhazia-sea-mountains-1.jpg");
   background-size: cover;
   z-index: 3;
+
 
 }
 #inicio .contactanos{
@@ -128,23 +130,37 @@ z-index: 5;
 
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.055) , inset 0 0 20px rgba(255,255,255, 0.05);
 }
+#nuestro-equipo{
+  width: 100%;
+  height: fit-content;
+}
 #nuestro-equipo h3{
   z-index: 4; 
-  background-color: #000f11ca;
+  background-color: rgba(0, 88, 112, 0.739);
   backdrop-filter: blur(5px); 
   color: #f9f9f9;
+  font-size: 12px;
   font-weight: 400; 
-  padding: .5rem 1rem;
-  
+  padding: 1rem;
+  justify-self: flex-start;
+  width: fit-content;
+
+}
+#nuestro-equipo .txt{
+  width:100%;
+
 }
 .txt{
-  width:70%
-    ;display:flex;flex-direction:column; height:fit-content;margin-left:1.5rem; 
+  width:70%;
+  display:flex;
+  flex-direction:column; 
+  height:fit-content;
+  margin-left:1.5rem; 
 }
 #info .txt{
   margin-top: 20px;
 }
-#nosotros .subtitulo{
+.subtitulo{
   display: flex; 
  
   top: 0;
@@ -153,17 +169,26 @@ z-index: 5;
   padding: .2rem 0; 
   background-color: #000808be; 
   margin:0 0 0 0;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.111), 0 0 40px #000d03;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.049), 0 0 40px #000000;
   z-index: 3;
 }
 #nosotros .objetivo{
-  /* color: #336a46 ; */
+ 
   /* box-shadow: none;  */
   /* font-weight: 600;  */
 
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem; 
-  background-color: #ffffff02; 
+  background-color: rgba(0, 18, 23, 0.739); 
+  
+ 
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.049), 0 0 40px #000000;
+}
+.objt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #nosotros img{
   max-height: 200px;
@@ -174,7 +199,7 @@ z-index: 5;
 #nosotros .logoN{
   width: 80%;
   padding: 20px 0;
-  max-width: 500px;
+  max-width: 300px;
   margin: 0;
   /*background-color: #191F27;*/
 }
@@ -186,10 +211,10 @@ z-index: 5;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 700px;
-  padding: 0 20%;
+  height: fit-content;
+
   /* background-color: #00322c;*/
-  border-radius: 0 0 0 250px;
+ 
 }
 
 #referencias{
@@ -227,7 +252,7 @@ height: 700px;
   align-items: center;
   height: fit-content;
   background: #bbdbbb;
-
+  background-size:cover; background-image:url(Img/Trabajemos-juntos.webp);background-repeat:no-repeat;background-position: center;
 }
 #contacto h2{
   width: 100%;
@@ -246,15 +271,22 @@ height: 700px;
   color: rgb(0, 37, 22);
   font-weight: 200;
 }
+.formularios{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 .contactanos{
   font-size: 12px;
   margin-top: 150px;
-border-radius: 8%;
-  width:60%;
-  max-width: 500px;
+  border-radius: 8%;
+  width:80%;
+  max-width: 300px;
   margin-top: 30px;
   padding: 40px;
-  background-color: #5e8d68;
+  background-color: #5e8d68b6;
   /* backdrop-filter: blur(7px); */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 30px rgba(255,255,255,.2);
 }
@@ -292,13 +324,49 @@ border-radius: 8%;
   width: 100%;
   color: var(--a1);
   text-align: center;
-  
+  background-size: cover;
+  background-position: center;
+  background-image:url('Img/fondoeco.png') ;
   height: 800px;
   display: block;
+  backdrop-filter: blur(8px);
 }
 #info img{
   width: 80%;
   margin-top: 200px;
 }
 
+@media (min-width: 801px) {
+  section{
+    flex-direction: row;
+    max-width: 80%;
+  }
+  article {
 
+  } 
+  #inicio{
+    background-size: cover;
+    background-position:  center;
+  }
+  .objt{
+    display: flex;
+    flex-direction: column;
+    
+  }
+ #nosotros .objetivo{
+    font-size: 12px;
+  }
+  .formularios{
+    flex-direction: row;
+  }
+  .contactanos{
+    max-width: 300px;
+    transform: scale(.8);
+  }
+  #nosotros .container{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
