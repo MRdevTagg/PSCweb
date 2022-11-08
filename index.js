@@ -109,26 +109,17 @@ function Init(){
   if(it<100){
     interval = setInterval(()=>{
       it++
-    $loading.style.width = ' '+it+'%'
-    $loadInt.innerHTML = 'Cargando . . .<br>'+it+'%';
+    $loading.style.width = it+'%'
+    $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;
     if(it>99){
-        $loadInt.innerHTML = 'Cargando . . .<br>100%'
-        it=100
+        it=100;
+        $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;
+        $preloader.style.opacity = 0;
+        EV($preloader,'transitionend',()=>{$preloader.style.display = 'none';})
     clearInterval(interval) 
- }},20)
+ };},20)
  
  }
-   setTimeout(()=>{
-     
-     $preloader.style.opacity = 0;
-     setTimeout(()=>{
-     $preloader.style.display = 'none';
-   },1300)
-   },1500)
-
-
-
-
 
 $('nav').style.height = window.innerHeight +'px';
   

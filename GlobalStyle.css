@@ -54,7 +54,9 @@
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
-
+.preloader p{
+  margin: 2rem 0;
+}
 .preloader .loader-cont{
   margin-top: 200px;
   display: flex;
