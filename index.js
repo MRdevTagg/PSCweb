@@ -105,22 +105,18 @@ const navHandler = function (i,li,sec){
 
   
 function Init(){
-  
-  if(it<100){
-    interval = setInterval(()=>{
-      it++
+  interval = setInterval(()=>{
+  if(it<100){ it+=1; }
+  else if(it>99){ it=100; }
+  if(it===100){
+      $preloader.style.opacity = 0;
+      EV($preloader,'transitionend',()=>{$preloader.style.display = 'none';}) 
+      clearInterval(interval)
+    }
     $loading.style.width = it+'%'
-    $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;
-    if(it>99){
-        it=100;
-        $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;
-        $preloader.style.opacity = 0;
-        EV($preloader,'transitionend',()=>{$preloader.style.display = 'none';})
-    clearInterval(interval) 
- };},20)
+    $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;   
+ ;},20)
  
- }
-
 $('nav').style.height = window.innerHeight +'px';
   
 links.forEach((link,index) =>{
