@@ -20,6 +20,9 @@ article{
 }
 
 #inicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 700px;
   overflow-y: hidden;
   background-color: #191F27;
@@ -40,7 +43,7 @@ article{
 .titulo{
   
   padding: 0;
-  margin-top:450px;
+  margin-top:300px;
   display: flex;
  height: 130px;
   align-items: center;
@@ -328,7 +331,7 @@ height: 700px;
   width: 100%;
   color: var(--a1);
   text-align: center;
-  background-size: cover;
+  background-size: 200%;
   background-position: center;
   background-image:url('Img/fondoeco.png') ;
   height: 800px;
@@ -338,6 +341,13 @@ height: 700px;
 #info img{
   width: 80%;
   margin-top: 200px;
+}
+.blured{
+padding: .5rem;
+  backdrop-filter: 
+  blur(8px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.54); 
+  margin: 0 .5rem;
 }
 
 @media (min-width: 801px) {

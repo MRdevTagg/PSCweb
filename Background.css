@@ -9,11 +9,11 @@ border-radius: 0 0 40% 0;}
 	#bg1{
 		
 		background-image: url('Img/Recursos/c1.jpeg');
-		opacity: 0;}
+		}
 	#bg2{
 	
 		background-image: url('Img/Recursos/c1.jpeg');
-		opacity: 1;}
+		}
 		@media (min-width: 801px) {
 			.bg{background-size: cover;
 	background-repeat: no-repeat;
