@@ -12,10 +12,10 @@ let index = 0;
 
 
 const bgChange = ({
-	src = ['Img/Recursos/c1.jpeg',
-	'Img/Recursos/c2.jpeg',
+	src = ['Img/Recursos/camion-lateral-mockup.png',
+	'Img/Recursos/c12.jpeg',
 	'Img/Recursos/c3.jpeg',
-	'Img/Recursos/c4.jpeg',
+	'Img/Recursos/c16.jpeg',
 	'Img/Recursos/c5.jpeg',],
 	time_seconds = 7,
 	bg1 = 'bg1',
@@ -41,7 +41,7 @@ const bgChange = ({
 
 		
 	}
-	window.requestAnimationFrame(bgChange)
+	RAF(bgChange)
 }
 
-window.requestAnimationFrame(bgChange)
+RAF(bgChange)

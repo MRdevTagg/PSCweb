@@ -9,7 +9,7 @@ const addClass = (selector, classname) => selector.classList.add(classname);
 const removeClass = (selector, classname) => selector.classList.remove(classname);
 const rect = sel => sel.getBoundingClientRect();
 const nNull = el => el !== null && el !== undefined;
-
+const RAF = fun => window.requestAnimationFrame(fun);
 function swap(el1,el2){
     let temp1 = el1;
     let temp2 = el2;
