@@ -29,12 +29,7 @@ const bgChange = ({
 		index < src.length -1 ? index +=1 : index = 0;
 		ID(bg1).style.backgroundImage = `url(${src[index]})`;
 		ID(bg1).style.opacity = '1';
-		EV(ID(bg1),'transitionend',()=>{
-			 ID(bg2).style.opacity = '0';
-		})
-
-
-		
+		ID(bg2).style.opacity = '0';
 	}
 	RAF(bgChange)
 }
