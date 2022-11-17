@@ -1,22 +1,37 @@
 .bg{
 	position: absolute;
 	width: inherit;
-	height: 70%;
+	height: inherit;
 	background-size: cover;
 	transition: all 4s;
+	background-repeat: no-repeat;
 	top:0;
-border-radius: 0 0 40% 0;}
-	#bg1{
+	
+}
+	#bg1, #bg2{
 		
 		background-image: url('Img/Recursos/c1.jpeg');
+		border-radius: 0 0 40% 0;
 		}
-	#bg2{
-	
-		background-image: url('Img/Recursos/c1.jpeg');
+
+		#bg3,#bg4{
+		background-image: url('Img/Recursos/c3.jpeg');
+		width: inherit;
+		height: inherit;
+		transition: all 2s;
+		border-radius: 3rem;
+		width: 70%;
+		height: 200px;
 		}
+		
 		@media (min-width: 801px) {
 			.bg{background-size: cover;
-	background-repeat: no-repeat;
+	
 	background-position:center;}
-				 
-		}
+	#bg3,#bg4{
+		width: 200px;
+	}
+	#bgservicios{
+		width:200px;
+	}
+}

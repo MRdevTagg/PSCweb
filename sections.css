@@ -500,6 +500,9 @@ width: fit-content;
   margin: .5rem 0 .5rem 1rem;
   font-size: .7rem;
 }
+#servicios .container{
+  flex-direction: row;
+}
 }
 
 

@@ -355,3 +355,18 @@ nav ul li img{
 .slide img{
   max-width: 200px;
 }
+
+
+
+
+.flexcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col{
+  flex-direction: column;
+}
+.row{
+  flex-direction: row;
+}

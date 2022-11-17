@@ -1,11 +1,11 @@
-const bb_equipo = 
-['Img/Recursos/c1.jpeg',
-'Img/Recursos/c1.jpeg',
-'Img/Recursos/c1.jpeg',
-'Img/Recursos/c1.jpeg',
-'Img/Recursos/c1.jpeg',];
-let counter = 0;
-let index = 0;
+const bg_equipo = 
+['Img/Recursos/camion-lateral-mockup.png',
+	'Img/Recursos/c12.jpeg',
+	'Img/Recursos/c3.jpeg',
+	'Img/Recursos/c16.jpeg',
+	'Img/Recursos/c5.jpeg',];
+
+const bg_camiones = ['Img/Recursos/c3.jpeg','Img/Recursos/c6.jpeg','Img/Recursos/c16.jpeg']
 
 
 class DynamicBg{
@@ -13,7 +13,7 @@ class DynamicBg{
 		this.bg1 =bg1;
 		this.bg2 =bg2;
 		this.src = src;
-		this.i = i;
+		this.i = i || 0;
 		this.time_ammount = time_ammount * 60;
 		this.timer = 0;
 	}
@@ -34,19 +34,20 @@ class DynamicBg{
 
 
 const equipo = new DynamicBg ({bg1:'bg1', bg2 : 'bg2',
-	src : ['Img/Recursos/camion-lateral-mockup.png',
-	'Img/Recursos/c12.jpeg',
-	'Img/Recursos/c3.jpeg',
-	'Img/Recursos/c16.jpeg',
-	'Img/Recursos/c5.jpeg',],
+	src : bg_equipo,
 	i : 0,
 	time_ammount : 7,
 }) 
+const camiones = new DynamicBg({
+	src:bg_camiones,
+	bg1:'bg3',
+	bg2:'bg4',
+	time_ammount: 4
+})
 
 
 
-
-let activeBackgrounds = [equipo]
+let activeBackgrounds = [equipo,camiones]
 
 
 
