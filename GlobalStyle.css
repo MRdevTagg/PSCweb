@@ -90,7 +90,7 @@ font-family: 'Roboto Condensed', sans-serif;
 body{
   
 
-  background-color: black;
+  background: url(Img/nature.jpg);
 
 
 }
@@ -221,6 +221,7 @@ main{overflow-x: hidden;
 display: flex;
 flex-direction: column;
 margin-top: var(--navHeight);
+box-shadow: inset 0 0 1rem rgba(0, 0, 0, 0.453),0 0 10rem rgb(0, 0, 0);
 }
 
 h1{font-size: 22px;}
