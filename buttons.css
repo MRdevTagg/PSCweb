@@ -62,3 +62,9 @@ opacity: 0;
 transform: rotate(-45deg);
 	position: absolute;
 }
+
+@media (min-width: 801px) {
+		 .btnmenu{
+			display:none;
+		 }
+}

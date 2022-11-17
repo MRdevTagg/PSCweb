@@ -116,8 +116,10 @@ function Init(){
     $loading.style.width = it+'%'
     $loadInt.innerHTML = `Cargando . . .<br><strong>${it}%</strong>`;   
  ;},20)
- 
-$('nav').style.height = window.innerHeight +'px';
+start === 'touchstart'?
+$('nav').style.height = window.innerHeight +'px':
+$('nav').style.height = $('header').innerHeight +'px'
+
   
 links.forEach((link,index) =>{
 EV(link,start,() => {
@@ -128,7 +130,7 @@ EV(link,start,() => {
 
 Sliders.forEach((sl)=>{
   sliderindex[i].style.transform = `scale(.7)`;
-                 sliderindex[i].style.background = `#093c7e`;
+  sliderindex[i].style.background = `#093c7e`;
   sl.UpdateSliderWidth()
 EV(sl.container,start,(e)=>{
   sl.canSwipe = true
@@ -181,7 +183,7 @@ EV(sl.container,move,(e)=>{
 
 EV($('.btnmenu'),start,showHideNav);
 EV($('main'),start,()=>{
-  if (navRight === 0) {
+  if (navRight === 0 && start === 'touchstart') {
     showHideNav()
   }
   

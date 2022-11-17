@@ -290,8 +290,67 @@ nav ul li img{
     align-items: center;
     justify-content: center;
   }
-     nav{width: 10%;}
-     nav .rrr{ font-size: 15px;}
+     nav{position: absolute;
+    
+      overflow: hidden;
+     right: 0;
+      width: 100%;
+      height: var(--navHeight);
+      padding:10px 0px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+
+      
+      top:0;
+        box-shadow: none;
+    border-bottom-left-radius: 0;
+    backdrop-filter: none;
+    background: none;
+    }
+
+      nav ul{
+        display: flex;
+       
+        flex-direction: row;
+        align-items:  center;
+        justify-content:  flex-end;
+       flex-wrap: wrap;
+        height: var(--navHeight);
+
+        margin:0 0;
+        padding: 0 1rem .2rem 0;
+  
+        
+      }
+
+      nav ul li{
+          
+      
+        display: flex;
+       align-items: center;
+       justify-content:center;
+        box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(0, 0, 2, 0.07);
+        border-radius: 8px;
+        font-size: 18px;
+        text-align: center;
+        list-style: none;
+        list-style-type: none;
+        color: white;
+        width: 10%;
+         border: none;
+     
+        padding: 5px 0;
+        background-color: #191f27ea;
+        font-weight: 500;
+        transition: all .6s;
+        margin: 1rem .2rem;
+        
+      
+      }
+#rerere{display: none;}
+     nav .rrr{ display: none;}
+
 }
 .slide img{
   max-width: 200px;

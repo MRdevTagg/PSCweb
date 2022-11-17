@@ -1,7 +1,7 @@
 .bg{
 	position: absolute;
 	width: inherit;
-	height: 600px;
+	height: 70%;
 	background-size: cover;
 	transition: all 4s;
 	top:0;
