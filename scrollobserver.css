@@ -23,12 +23,10 @@
   transform: rotate(45deg);
   transition:all 1s;}
 .visible{
-  
   transform: rotate(0);
   transform: scale(1);
   transform: translate(0,0);
   opacity: 1;
- 
 }
 .menuvisible{
   margin-right: 0;

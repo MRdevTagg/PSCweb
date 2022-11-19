@@ -36,7 +36,8 @@ let pastLink = null;
 let navRight= -50;
 const sections= Array.from($$('main section'));
 const links = Array.from($$('.sp-link'));
-const menubar = Array.from($$('.menubar'))
+const menubar = Array.from($$('.menubar'));
+let puedeCambiarlink = true;
   //////////////
  // HANDLERS //
 //////////////
@@ -78,8 +79,7 @@ class NavBar {
       this.pastSec = this.section[this.linkIndex];
   }
 }
-
-const navHandler = function (i,li,sec){
+const navAnim = function (i,li,sec){
   headheight = $('header').clientHeight
         if ( pastLink !== null ) {
             removeClass(pastLink,"activeLink");
@@ -91,10 +91,17 @@ const navHandler = function (i,li,sec){
       addClass(li[i],"activeLink")
       li[i].querySelector("img").style.width = "90%";
       addClass(sec[i],"activeSection")
-      window.scrollBy(0, rect(sec[i]).top - headheight);
+    
 
       pastLink = li[i];
       pastSec = sec[i];
+};
+const navHandler = function (i,li,sec){
+ 
+   navAnim(i,li,sec)
+      window.scrollBy(0, rect(sec[i]).top - headheight);
+
+  
 };
 
 
@@ -123,7 +130,9 @@ $('nav').style.height = $('header').innerHeight +'px'
   
 links.forEach((link,index) =>{
 EV(link,start,() => {
-  navHandler(index,links,sections);
+  puedeCambiarlink=false;
+  navHandler(index,links,sections); 
+  setTimeout(()=> {puedeCambiarlink = true}, 600);
  // showHideNav()
 })
 });
