@@ -47,12 +47,12 @@
   border-radius: 1px;
   margin: .5rem 0; 
   margin-left: .5%;
-  animation-name: loading;
-  animation-duration: .3s;
-  animation-play-state: running;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  animation-fill-mode: forwards;
+  animation-name: linkEffect;
+  animation-duration: .5s;
+ animation-play-state: running;
+ animation-iteration-count: infinite;
+ animation-timing-function: ease;
+ animation-fill-mode: forwards;
 }
 .preloader p{
   margin: 2rem 0;
@@ -91,6 +91,8 @@ body{
   
 
   background: url(Img/nature.jpg);
+  background-attachment: fixed;
+  top: 0.5;
 
 
 }
@@ -108,7 +110,7 @@ justify-content: space-between;
   margin: 0;
 padding: 0;
   z-index: 7;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.601);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.601), inset 0 0 1rem rgba(255, 255, 255, 0.12);
 }
 img {
   -drag: none;
@@ -127,9 +129,9 @@ img {
   
 
 margin: 0;
-padding: 0;
+padding: 1rem;
   z-index: 2;
- margin-left: 8px;
+
  
 }
 
@@ -200,10 +202,7 @@ nav ul li{
  justify-content: space-evenly;
   box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(0, 0, 2, 0.07);
   border-radius: 8px;
-  font-size: 18px;
-  text-align: center;
-  list-style: none;
-  list-style-type: none;
+
   color: white;
   width: 85%;
    border: none;
@@ -212,7 +211,7 @@ transform: scale(1);
   background-color: #191f27ea;
   font-weight: 500;
   transition: all .6s;
-  margin-top: 10px;
+  margin-top: .3rem;
   
 
 }
@@ -259,7 +258,7 @@ nav ul li img{
 .activeLink{
   transform:scale(1);
   text-shadow: 0 0 15px #b0f1c3;
-  color:#ffffff;
+  
   box-shadow: 0  0 14px rgba(170, 255, 208, 0.71), inset 0 0 14px rgba(144, 250, 179, 0.5);
   border: none;
   animation-name: linkEffect;
@@ -291,8 +290,12 @@ nav ul li img{
     align-items: center;
     justify-content: center;
   }
-     nav{position: absolute;
-    
+  header{
+          border-radius: 0 0 1rem 1rem;
+overflow: hidden;
+  }
+     nav{
+    position: static;
       overflow: hidden;
      right: 0;
       width: 100%;
@@ -301,11 +304,12 @@ nav ul li img{
       display: flex;
       flex-direction: row;
       align-items: flex-end;
+      justify-content: center;
 
       
       top:0;
         box-shadow: none;
-    border-bottom-left-radius: 0;
+   
     backdrop-filter: none;
     background: none;
     }
@@ -316,12 +320,12 @@ nav ul li img{
         flex-direction: row;
         align-items:  center;
         justify-content:  flex-end;
-       flex-wrap: wrap;
+   
         height: var(--navHeight);
-
+        box-shadow: inset 0 0 10px #191f2783;
+        background-image: linear-gradient(to right, rgba(255,255,255, 0) 0%, rgba(255, 255, 255, 0.079) 30%, rgba(255, 255, 255, 0.079) 100%);
         margin:0 0;
-        padding: 0 1rem .2rem 0;
-  
+       padding: 0 1rem 0 0 ;
         
       }
 
@@ -332,16 +336,10 @@ nav ul li img{
        align-items: center;
        justify-content:center;
         box-shadow: -7px -7px 7px rgba(0, 0, 0, 0.14), inset -7px -7px 7px rgba(0, 0, 2, 0.07);
-        border-radius: 8px;
-        font-size: 18px;
-        text-align: center;
-        list-style: none;
-        list-style-type: none;
-        color: white;
+        border-radius: .2rem;
         width: 10%;
-         border: none;
-     
-        padding: 5px 0;
+        border: none;
+        padding: .2rem;
         background-color: #191f27ea;
         font-weight: 500;
         transition: all .6s;

@@ -44,7 +44,6 @@ const create = ({
  
     $(parent).appendChild(el);
     times--;
-    console.log(el);
     if(times > 0){
         create({node,parent,clase,id,html,src,times});
       }

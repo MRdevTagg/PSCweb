@@ -6,21 +6,20 @@
 	transition: all 4s;
 	background-repeat: no-repeat;
 	top:0;
+	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.265),inset 0 0 2rem #000;
 	
 }
 	#bg1, #bg2{
-		
+		height: 500px;
 		background-image: url('Img/Recursos/c1.jpeg');
 		border-radius: 0 0 40% 0;
 		}
 
 		#bg3,#bg4{
-		background-image: url('Img/Recursos/c3.jpeg');
-	border-radius: 20% 0 20%;
+		background-image: url('Img/Recursos/c1.jpeg');
 		}
 		#bg5,#bg6{
 			background-image: url('Img/bolsa1.jpeg');
-			border-radius: 20% 0 20%;
 			
 		}
 		.bgservicios{
