@@ -11,15 +11,15 @@
 }
 	#bg1, #bg2{
 		height: 500px;
-		background-image: url('img/Recursos/c1.jpeg');
+		background-image: url('Img/Recursos/c1.jpeg');
 		border-radius: 0 0 40% 0;
 		}
 
 		#bg3,#bg4{
-		background-image: url('img/Recursos/c1.jpeg');
+		background-image: url('Img/Recursos/c1.jpeg');
 		}
 		#bg5,#bg6{
-			background-image: url('img/bolsa1.jpeg');
+			background-image: url('Img/bolsa1.jpeg');
 			
 		}
 		.bgservicios{

@@ -1,12 +1,12 @@
 const bg_equipo = 
-['img/Recursos/camion-lateral-mockup.png',
-	'img/Recursos/c12.jpeg',
-	'img/Recursos/c3.jpeg',
-	'img/Recursos/c16.jpeg',
-	'img/Recursos/c5.jpeg',];
+['Img/Recursos/camion-lateral-mockup.png',
+	'Img/Recursos/c12.jpeg',
+	'Img/Recursos/c3.jpeg',
+	'Img/Recursos/c16.jpeg',
+	'Img/Recursos/c5.jpeg',];
 
-const bg_camiones = ['img/Recursos/c3.jpeg','img/Recursos/c6.jpeg','img/Recursos/c16.jpeg']
-const bg_bolsas = ['img/bolsa1.jpeg','img/bolsa2.jpeg','img/bolsa3.jpeg','img/bolsa4.jpeg']
+const bg_camiones = ['Img/Recursos/c3.jpeg','Img/Recursos/c6.jpeg','Img/Recursos/c16.jpeg']
+const bg_bolsas = ['Img/bolsa1.jpeg','Img/bolsa2.jpeg','Img/bolsa3.jpeg','Img/bolsa4.jpeg']
 
 class DynamicBg{
 	constructor({bg1,bg2,src,i,time_ammount}){
