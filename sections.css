@@ -28,7 +28,7 @@ article{
   height: 700px;
   overflow-y: hidden;
   background-color: #191F27;
-  background: url("Img/Abkhazia-sea-mountains-1.jpg");
+  background: url("img/Abkhazia-sea-mountains-1.jpg");
   background-size: cover;
   z-index: 3;
 
@@ -274,7 +274,7 @@ height: 700px;
   align-items: center;
   height: fit-content;
   background: #bbdbbb;
-  background-size:cover; background-image:url(Img/Trabajemos-juntos.webp);background-repeat:no-repeat;background-position: center;
+  background-size:cover; background-image:url(img/Trabajemos-juntos.webp);background-repeat:no-repeat;background-position: center;
 }
 #contacto h2{
   width: 100%;
@@ -361,7 +361,7 @@ height: 700px;
  background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-image:url('Img/fondoeco2.png') ; 
+  background-image:url('img/fondoeco2.png') ; 
   background-color: #191F27;
   height: fit-content;
   display: flex;
@@ -388,7 +388,7 @@ article ul{
  
 }
 article ul li{
-  list-style-image: url(Img/Iconos/flecha.svg);
+  list-style-image: url(img/Iconos/flecha.svg);
    border-radius: .5rem;
   border: 1px solid rgba(172, 237, 255, 0.552);
   margin: 1rem 0;
