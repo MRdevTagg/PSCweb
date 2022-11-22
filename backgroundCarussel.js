@@ -58,8 +58,3 @@ let activeBackgrounds = [equipo,camiones,bolsas]
 
 
 
-const ChangeBackgrounds = () =>{
-	activeBackgrounds.forEach(bg => bg.change())
-	RAF(ChangeBackgrounds)
-}
-RAF(ChangeBackgrounds)

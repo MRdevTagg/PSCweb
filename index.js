@@ -10,6 +10,7 @@ var start_yPos;
 var start_time;
 let it = 0;
 
+
 const s1_container = $('.slider-container');
 const slides1 = Array.from($$('.slide'));
 
@@ -136,7 +137,11 @@ EV(link,start,() => {
  // showHideNav()
 })
 });
-
+const AnimateAll = () =>{
+	activeBackgrounds.forEach(bg => bg.change())
+	RAF(AnimateAll)
+}
+RAF(AnimateAll)
 Sliders.forEach((sl)=>{
   sliderindex[i].style.transform = `scale(.7)`;
   sliderindex[i].style.background = `#093c7e`;
