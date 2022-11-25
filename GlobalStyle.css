@@ -31,7 +31,7 @@
  transition: all .5s;
 }
 .preloader .logo{
-  background: url('Img/logoPSCF.svg');
+  background: url('img/logoPSCF.svg');
   background-repeat: no-repeat;
   background-size: contain;
   width: 80%;
@@ -90,7 +90,7 @@ font-family: 'Roboto Condensed', sans-serif;
 body{
   
 
-  background: url(Img/nature.jpg);
+  background: url(img/nature.jpg);
   background-attachment: fixed;
   top: 0.5;
 
